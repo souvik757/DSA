@@ -110,5 +110,6 @@ public class Reverse_in_k_groups {
             System.out.println("AFTER "+k+" REVERSAL OPERATION :") ;
             show_list(HEAD) ;
         }
+        sc.close() ;
     }
 }

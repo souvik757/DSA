@@ -116,6 +116,7 @@ public class Middle_of_list_TORTOISE_HARE {
                 System.out.println("Mid-element : "+GET_MID(HEAD).data);
             }
         }
+        sc.close();
 
     }
 }

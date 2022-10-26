@@ -2,7 +2,6 @@ import java.util.*;
 
 public class permutation_of_string
 {
-
     // FOR INTEGER :
     static void solve(List<List<Integer>> answer , List<Integer> output , int[] number)
     {

@@ -9,13 +9,13 @@ public class basic {
         myStack.push(14) ;
         myStack.push(15) ;
 
+        System.out.println(myStack);
+
         // pop operation :
         myStack.pop() ;
 
         System.out.println(myStack);
         // peek operation :
         System.out.println(myStack.peek()) ;
-
-        System.out.println(myStack);
     }
 }

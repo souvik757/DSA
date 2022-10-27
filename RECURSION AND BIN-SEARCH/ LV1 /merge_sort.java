@@ -1,4 +1,4 @@
-public class merge_two_sorted_arr {
+public class merge_sort {
     static void merge(int[] numbs, int s,int mid, int e)
     {
         int len1 = mid - s +1;

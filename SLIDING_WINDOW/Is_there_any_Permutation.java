@@ -9,7 +9,7 @@ public class Is_there_any_Permutation
         Arrays.sort(ch) ;
         return new String(ch) ;
     }
-    static void messege(String s1, String s2 , int pos)
+    static void message(String s1, String s2 , int pos)
     {
         String temp = s2.substring(pos, pos+s1.length()) ;
         System.out.println(temp+" at "+pos+" index"+" of "+s2+" is a permutation of "+s1+" ! ");
@@ -18,13 +18,13 @@ public class Is_there_any_Permutation
     {
         String origin = s1 ;
         s1 = sort(s1) ;
-        int pos = -1 ;
+        int pos;
         for(int i = 0 ; i <= s2.length()-s1.length() ; i++)
         {
             if(s1.equals(sort(s2.substring(i , i+s1.length()))))
             {
                 pos = i ;
-                messege(origin,s2,pos) ;
+                message(origin,s2,pos) ;
                 return true ;
             }
         }

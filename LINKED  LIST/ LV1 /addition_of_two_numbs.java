@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class addition_of_two_numbs {
     static class node
     {
@@ -83,6 +85,7 @@ public class addition_of_two_numbs {
     }
 
     public static void main(String[] args) {
+        Scanner sc ;
         // nodes of first list aka , number 1 ->
         node head1 = new node(2) ;
           node n1 = new node(3) ;

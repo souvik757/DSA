@@ -1,9 +1,12 @@
 import java.util.Scanner;
 
-//Initially you are at 0th step, you have to reach Nth step.
-//you can jump to next step or after next step.
-//Allowed jump is 1 stair, 2 stairs , at once.
-//Determine how many jump you must have made to reach Nth step,
+// Question Statement :
+/*
+   Initially you are at 0th step, you have to reach to Nth step .
+   you can jump to next step or after next step .
+   Allowed jump is 1 stair, 2 stairs , at once .
+   Determine how many jump you must have made to reach Nth step at minimum cost .
+*/
 class Stairs
 {
     static int helper(int N)

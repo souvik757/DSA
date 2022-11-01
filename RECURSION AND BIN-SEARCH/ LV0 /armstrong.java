@@ -1,7 +1,17 @@
 import java.util.Scanner;
-//it returns sum of length-th powers  of all digits in a number.
-//eventually , if returned answer is same as original number , it is an armstrong number .
+
+// Question Statement :
+/*
+   At first we calculate sum of length-th powers  of all digits in a number.
+   eventually , if returned answer is same as original number , it is an armstrong number .
+For example,
+   take N = '371'
+   so , calculated summation = 3^3 + 7^3 + 1^3 ; '3' because it is the length of given number '371'
+                             = 371
+                             = '371'
+*/
 public class armstrong {
+
     static int myPow(int M, int N)//custom pow function👌
     {
         if(N == 0)
@@ -34,7 +44,8 @@ public class armstrong {
         return l;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int n = length(N);

@@ -21,7 +21,5 @@ public class string_reverse {
         char[] S = STR.toCharArray();
         helper(S,0,N);
         sc.close();
-
-
     }
 }

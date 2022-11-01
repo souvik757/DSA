@@ -1,6 +1,11 @@
 import java.util.Scanner;
-//145 = 1! + 4! + 5!
-// so 145 is a strong number .
+
+// Question Statement :
+/*
+   145 = 1! + 4! + 5!
+   so 145 is a strong number .
+*/
+
 public class strong {
     static int fact(int n)
     {

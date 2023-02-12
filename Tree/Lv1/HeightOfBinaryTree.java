@@ -2,6 +2,8 @@ package Lv1 ;
 
 import Lv0.* ;
 
+import java.util.Scanner;
+
 public class HeightOfBinaryTree {
     public static void main(String[] args) {
         TreeFormation.TreeNode root = null ;
@@ -13,7 +15,7 @@ public class HeightOfBinaryTree {
 
     public static int FindHeight(TreeFormation.TreeNode node) {
         if(node == null)
-            return 0 ;
+            return -1 ;
 
         int left = FindHeight(node.left) ;
         int right = FindHeight(node.right) ;

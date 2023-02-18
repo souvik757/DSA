@@ -7,11 +7,10 @@ public class height_of_certain_node {
     public static void main(String[] args) {
         TreeFormation.TreeNode root = TreeFormation.formTreeByLevel(null) ;
         _Height_(root, 20) ;
-        int result = HeightOfBinaryTree.FindHeight(root) ;
-        System.out.println("Heigth of tree : "+result);
+        int result  = _Height_(root, 20) ;
+        System.out.println("Height of tree : "+result);
         System.out.println("Height of 20 : "+height+
                 "\nDepth of 20 : "+(result - height));
-
     }
     public static int _Height_(TreeFormation.TreeNode root , int x){
         if(root==null)

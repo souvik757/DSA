@@ -96,17 +96,25 @@ class problem_solution{
     public int GCD(int x , int y){
         return (x == 0) ? y : GCD(y%x , x) ;
     }
-    // LCM
-   // public int LCM(int x , int y){
-   //
-   // }
-   // // HCF
-   // public int HCF(int x , int y){
-   //
-   // }
-    // Th_1 . How does a 'Hashmap' work ?
+    // 12-03-2023 -OA-
+    // 1 . Diamond pattern.  20 pts -medium-
     /*
-
+       n = 5
+             *
+            * *
+           * * *
+          * * * *
+         * * * * *
+          * * * *
+           * * *
+            * *
+             *
+     */
+    // 2 .
+    // 3 . String Compression. 15 pts -easy-
+    /*
+        STDIN  : s = "aaabbbccad"
+        STDOUT : s = "a3b3c2a1d1"
      */
 
 }

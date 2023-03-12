@@ -9,7 +9,7 @@ public class _vertical_traversal_ {
         TreeFormation.TreeNode root = new TreeFormation.TreeNode();
         traverse ins = new traverse() ;
         root = TreeFormation.formTreeByLevel(root) ;
-        ins._display_vertical_(root) ;
+        System.out.println(ins._display_vertical_(root)) ;
     }
 
 }
@@ -36,13 +36,16 @@ class traverse{
         // 6 . traverse to right ->
         _traversed_list_(root.right , hd+1 , map) ;
     }
-    public void _display_vertical_(TreeFormation.TreeNode root){
+    public List<List<Integer>> _display_vertical_(TreeFormation.TreeNode root){
         int hd = 0 ;
         TreeMap<Integer , List<Integer>> map = new TreeMap<>() ;
         _traversed_list_(root , hd , map);
+        List<List<Integer>> ans = new ArrayList<>() ;
         System.out.println("Vertical view -> ");
         for(Map.Entry<Integer , List<Integer>> entry : map.entrySet()){
-            System.out.print(entry.getValue());
+            ans.add(entry.getValue()) ;
+            //System.out.print(entry.getValue());
         }
+        return ans ;
     }
 }

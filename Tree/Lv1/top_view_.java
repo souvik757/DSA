@@ -18,20 +18,3 @@ class _helper_ {
         return ans ;
     }
 }
-class Pair{
-    private boolean a ;
-    private int b ;
-
-    public Pair(boolean a, int b) {
-        this.a = a;
-        this.b = b;
-    }
-
-    public boolean isA() {
-        return a;
-    }
-
-    public int getB() {
-        return b;
-    }
-}

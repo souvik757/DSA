@@ -13,13 +13,12 @@
 
 - [Level 0 - basics](https://github.com/souvik757/DSA/tree/master/LINKED%20%20LIST/%7F%7F%7F%7F%7F%20LV0%20%7F%7F%7F%7F%7F%7F%7F)
 - [Level 1 - intermediate](https://github.com/souvik757/DSA/tree/master/LINKED%20%20LIST/%7F%7F%7F%7F%7F%20LV1%20%7F%7F%7F%7F%7F%7F%7F)
-- [Level 1 - medium to hard](#)
 
 ## Recursion and Binary Search
 
 - [Level 0 - basics](https://github.com/souvik757/DSA/tree/master/RECURSION%20AND%20BIN-SEARCH/%7F%7F%7F%7F%7F%20LV0%20%7F%7F%7F%7F%7F%7F%7F)
 - [Level 1 - intermediate](https://github.com/souvik757/DSA/tree/master/RECURSION%20AND%20BIN-SEARCH/%7F%7F%7F%7F%7F%20LV1%20%7F%7F%7F%7F%7F%7F%7F)
-- [Level 1 - hard](https://github.com/souvik757/DSA/tree/master/RECURSION%20AND%20BIN-SEARCH/%7F%7F%7F%7F%7F%20LV2%20%7F%7F%7F%7F%7F%7F%7F)
+- [Level 2 - hard](https://github.com/souvik757/DSA/tree/master/RECURSION%20AND%20BIN-SEARCH/%7F%7F%7F%7F%7F%20LV2%20%7F%7F%7F%7F%7F%7F%7F)
 
 ## Sliding Window
 

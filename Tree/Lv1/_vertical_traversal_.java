@@ -14,8 +14,9 @@ public class _vertical_traversal_ {
 
 }
 class traverse{
-    public void _traversed_list_(TreeFormation.TreeNode root , int hd ,
-                                 TreeMap<Integer , List<Integer>> map){
+    // Here we can use this approach free of height. Since , here height does not matter ,
+    public void _vertical_traversed_list_(TreeFormation.TreeNode root , int hd ,
+                                          TreeMap<Integer , List<Integer>> map){
         // base case ->
         if(root==null)
             return ;
@@ -32,14 +33,14 @@ class traverse{
         // 4 . add the list to the map with respect to the current horizontal distance from root ->
         map.put(hd , _list_) ;
         // 5 . traverse to left ->
-        _traversed_list_(root.left , hd-1 , map) ;
+        _vertical_traversed_list_(root.left , hd-1 , map) ;
         // 6 . traverse to right ->
-        _traversed_list_(root.right , hd+1 , map) ;
+        _vertical_traversed_list_(root.right , hd+1 , map) ;
     }
     public List<List<Integer>> _display_vertical_(TreeFormation.TreeNode root){
         int hd = 0 ;
         TreeMap<Integer , List<Integer>> map = new TreeMap<>() ;
-        _traversed_list_(root , hd , map);
+        _vertical_traversed_list_(root , hd , map);
         List<List<Integer>> ans = new ArrayList<>() ;
         System.out.println("Vertical view -> ");
         for(Map.Entry<Integer , List<Integer>> entry : map.entrySet()){

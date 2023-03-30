@@ -16,12 +16,10 @@ class _solves_{
             return true ;
         if(t_length == 0)
             return false ;
-        if(s_length == t_length) {
+        if(s_length == t_length)
             return s.equals(t) ;
-        }
         else
             answer = perform(s, t);
-
         return answer ;
     }
     public boolean perform(String s , String t){
@@ -29,9 +27,8 @@ class _solves_{
         for(int i = 0 ; i < t.length() ; i++){
             if(t.charAt(i) == s.charAt(index)) {
                 index++ ;
-                if(index == s.length()){
+                if(index == s.length())
                     return true ;
-                }
             }
         }
         return false ;

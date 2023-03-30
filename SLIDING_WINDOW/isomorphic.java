@@ -8,7 +8,6 @@ public class isomorphic {
 }
 class solves{
     public boolean isIsomorphic(String s ,String  t){
-        boolean answer = true ;
         Map<Character,Character> _map_ = new HashMap<>() ;
         Map<Character,Boolean> _map_2 = new HashMap<>() ;
         if(s.length() == t.length()){
@@ -16,7 +15,7 @@ class solves{
             for(int i = 0 ; i < s.length() ; i++){
                 if(_map_.containsKey(s.charAt(i))){
                     if(!_map_.get(s.charAt(i)).equals(t.charAt(i)))
-                        answer = false ;
+                        return false ;
                 }
                 else
                 {
@@ -30,8 +29,7 @@ class solves{
                     _map_.put(s.charAt(i) , t.charAt(i)) ;
                 }
             }
-        }else return false ;
-        System.out.println(_map_);
-        return answer ;
+        }
+        return false ;
     }
 }

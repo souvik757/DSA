@@ -4,12 +4,19 @@ import java.util.*;
 pre-requisites :
 - adjacency list
 - queue
+BREADTH FIRST SEARCH :
 1 . add first vertex to queue
 2 . make top-most vertex(_poll_) of queue mark as visited
 3 . print the top-most vertex(_poll_) of queue
 4 . remove it from queue
 5 . add each neighbor of _poll_ to queue .
 6 . repeat step 2 to 5 until queue becomes empty .
+DEPTH FIRST SEARCH :
+1 . add first vertex to list
+2 . make first vertex to true
+3 . repeat 4 to 5 .
+4 . check for adjacent vertex's of added node
+5 . if it is not yet marked true OR not visited then repeat step 1 to 5 .
  */
 public class BFS {
     public static void main(String[] args) {
@@ -29,12 +36,17 @@ public class BFS {
             solve.Pair pair = new solve.Pair(first , end) ;
             edges.add(pair) ;
         }
-        System.out.println("BFS traversal : "+result._get_traversal_(start , vertex , edges)) ;
+        System.out.println("BFS traversal : "+result._get_traversal_BFS_(start , vertex , edges)) ;
     }
 }
 class solve{
+    // an array of list that will store adjacency list corresponding to each vertex -->
     private LinkedList<Integer>[] adjList ;
-    public List<Integer> _get_traversal_(int start , int vertex , List<Pair> edges){
+
+
+
+    // traverse by bfs -->
+    public List<Integer> _get_traversal_BFS_(int start , int vertex , List<Pair> edges){
         List<Integer> ListOfEdges = new ArrayList<>() ;
         ListOfEdges.add(start) ;
         for(int i = 0 ; i < vertex ; i++){
@@ -53,6 +65,7 @@ class solve{
         }
         return ans ;
     }
+    // actual bfs function --> Iterative approach
     private void _apply_bfs_(Map<Integer, Boolean> visited, List<Integer> ans, int i) {
         Queue<Integer> queue = new LinkedList<>() ;
         queue.add(i) ;
@@ -70,6 +83,43 @@ class solve{
         }
 
     }
+
+
+
+    // traverse by dfs -->
+    public List<Integer> _get_traversal_DFS_(int start , int vertex , List<Pair> edges){
+        List<Integer> ListOfEdges = new ArrayList<>() ;
+        ListOfEdges.add(start) ;
+        for(int i = 0 ; i < vertex ; i++){
+            if(!ListOfEdges.contains(i))
+                ListOfEdges.add(i) ;
+        }
+        List<Integer> ans = new ArrayList<>() ;
+        Map<Integer , Boolean> visited = new HashMap<>() ;
+        for(int i = 0 ; i < vertex ; i++)
+            visited.put(i,false) ;
+        makeAdjList(edges , vertex) ;
+        // traverse all components of G ->
+        for(int i : ListOfEdges){
+            if(!visited.get(i))
+                _apply_dfs_(visited , ans , i) ;
+        }
+        return ans ;
+    }
+
+    // actual dfs function --> Recursive approach
+    private void _apply_dfs_(Map<Integer , Boolean> visited , List<Integer> ans , int i){
+        ans.add(i) ;
+        visited.put(i , true) ;
+        for(int value : adjList[i]){
+            if(!visited.get(value))
+                _apply_dfs_(visited , ans , value);
+        }
+    }
+
+
+
+    // Making adjacency list -->
     private void makeAdjList(List<Pair> edges , int vertex) {
         adjList = new LinkedList[vertex] ;
         for(int i = 0 ; i < vertex ; i++){
@@ -82,6 +132,10 @@ class solve{
             adjList[v].add(u) ;
         }
     }
+
+
+
+    // custom class pair to maintain two nodes of an edge -->
     static class Pair{
         int first ;
         int second ;

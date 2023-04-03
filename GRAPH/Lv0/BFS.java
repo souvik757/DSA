@@ -20,13 +20,22 @@ DEPTH FIRST SEARCH :
  */
 public class BFS {
     public static void main(String[] args) {
-        List<solve.Pair> edges = new ArrayList<>() ;
+        int vertex = 0 ;
+        int NumberOfEdges = 0 ;
         solve result = new solve() ;
+        List<solve.Pair> edges = new ArrayList<>() ;
+
         System.out.println("Enter number of vertex ->  "+"\nfollowed by number of edges -> ");
-        int vertex = new Scanner(System.in).nextInt() ;
-        int NumberOfEdges = new Scanner(System.in).nextInt() ;
+        vertex = new Scanner(System.in).nextInt() ;
+        NumberOfEdges = new Scanner(System.in).nextInt() ;
         System.out.println("Starting vertex - >");
         int start = new Scanner(System.in).nextInt() ;
+
+        create_edges(NumberOfEdges , edges);
+
+        System.out.println("BFS traversal : "+result._get_traversal_BFS_(start , vertex , edges)) ;
+    }
+    public static void create_edges(int NumberOfEdges , List<solve.Pair> edges){
         for(int i = 0 ; i < NumberOfEdges ; i++){
             System.out.print("left vertex : ");
             int first = new Scanner(System.in).nextInt() ;
@@ -36,12 +45,11 @@ public class BFS {
             solve.Pair pair = new solve.Pair(first , end) ;
             edges.add(pair) ;
         }
-        System.out.println("BFS traversal : "+result._get_traversal_BFS_(start , vertex , edges)) ;
     }
 }
 class solve{
     // an array of list that will store adjacency list corresponding to each vertex -->
-    private LinkedList<Integer>[] adjList ;
+    public LinkedList<Integer>[] adjList ;
 
 
 
@@ -120,7 +128,7 @@ class solve{
 
 
     // Making adjacency list -->
-    private void makeAdjList(List<Pair> edges , int vertex) {
+    public void makeAdjList(List<Pair> edges , int vertex) {
         adjList = new LinkedList[vertex] ;
         for(int i = 0 ; i < vertex ; i++){
             adjList[i] = new LinkedList<>() ;

@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue ;
 
+// Every Amazing problem has an Amazing solution . . . here it is for this one !
 public class _01_matrix {
     public static void main(String[] args) {
         solutionG10 object = new solutionG10() ;
@@ -25,8 +26,6 @@ class solutionG10{
                     queue.add(new pairs<>(i,j,0)) ;
                     visited[i][j] = true ;
                 }
-                else
-                    visited[i][j] = false ;
             }
         }
 

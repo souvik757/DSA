@@ -18,9 +18,9 @@ public class PostOrder {
         if(root == null){
             return ;
         }
-        postOrder(root.left) ;
-        postOrder(root.right) ;
-        storeList.add(root.data) ;
+        postOrder(root.left) ; // L
+        postOrder(root.right) ; // R
+        storeList.add(root.data) ; // V
     }
     public static void main(String[] args) {
         TreeFormation.TreeNode root = null ;

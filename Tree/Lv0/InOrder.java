@@ -1,5 +1,4 @@
 package Lv0;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +10,8 @@ import java.util.List;
                .
               .
              5
-
+ --> LVR
+ -->Left - Visit - Right
  */
 
 public class InOrder {
@@ -20,9 +20,9 @@ public class InOrder {
         if(root == null){
             return ;
         }
-        inOrder(root.left) ;
-        storeList.add(root.data) ;
-        inOrder(root.right) ;
+        inOrder(root.left) ; // L
+        storeList.add(root.data) ; // V
+        inOrder(root.right) ; // R
     }
 
     public static void main(String[] args) {

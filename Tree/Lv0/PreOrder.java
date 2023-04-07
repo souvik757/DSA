@@ -17,9 +17,9 @@ public class PreOrder {
     public static void preOrderTraverse(TreeFormation.TreeNode root){
         if(root == null)
             return ;
-        storeList.add(root.data) ;
-        preOrderTraverse(root.left) ;
-        preOrderTraverse(root.right) ;
+        storeList.add(root.data) ; // Visit children
+        preOrderTraverse(root.left) ; // Left children
+        preOrderTraverse(root.right) ; // Right children
     }
     public static void main(String[] args) {
         TreeFormation.TreeNode root = null ;

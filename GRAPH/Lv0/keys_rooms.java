@@ -1,6 +1,7 @@
 import java.util.*;
 
 // Get some rest and solve this one :
+// facts -> This question was asked in Amazon !!!
 
 public class keys_rooms {
     public static void main(String[] args) {

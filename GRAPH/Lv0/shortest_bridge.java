@@ -91,4 +91,20 @@ class Pair<K,V>{
         this.row = row;
         this.column = column;
     }
+
+    public K getRow() {
+        return row;
+    }
+
+    public void setRow(K row) {
+        this.row = row;
+    }
+
+    public V getColumn() {
+        return column;
+    }
+
+    public void setColumn(V column) {
+        this.column = column;
+    }
 }

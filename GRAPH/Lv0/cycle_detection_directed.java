@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class cycle_detection_directed {
     public static void main(String[] args) {
-        solution00 object = new solution00() ;
+        solutionG00 object = new solutionG00() ;
         System.out.println(object._is_cycle_(23 , new int[]{4, 4, 1, 4, 13, 8, 8, 8, 0, 8, 14, 9, 15, 11, -1, 10, 15, 22, 22, 22, 22, 22, 21})) ;
         System.out.println(object._is_cycle_( 4 , new int[]{1,2,0,-1})) ;
         System.out.println(object._is_cycle_( 5 , new int[]{1,2,3,4,-1,3})) ;
@@ -12,7 +12,7 @@ public class cycle_detection_directed {
         System.out.println(object._is_cycle_( 4 , new int[]{-1,2,3,1})) ;
     }
 }
-class solution00{
+class solutionG00 {
     private LinkedList<Integer>[] adjList ;
     public String _is_cycle_(int N , int[] Edges){
         _make_adj_list_(Edges);

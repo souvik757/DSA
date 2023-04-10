@@ -3,6 +3,8 @@ package Lv0;
 import java.util.LinkedList;
 import java.util.Queue;
 
+
+// Depth = Max(Lv) + 1
 public class MaxDepth {
     public static int depth(TreeFormation.TreeNode root){
         int depth_max = 0;
@@ -34,7 +36,7 @@ public class MaxDepth {
     return depth_max ;
     }
     public static void main(String[] args) {
-        TreeFormation.TreeNode root = null ;
+        TreeFormation.TreeNode root = new TreeFormation.TreeNode() ;
         root = TreeFormation.formTree(root) ;
 
         System.out.println("Tree : ");

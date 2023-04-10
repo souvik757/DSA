@@ -1,7 +1,7 @@
 package Lv1;
 
 import Lv0.TreeFormation;
-
+// Max Leaf -> 2 ^ height
 public class _max_leaf_ {
     public static void main(String[] args) {
         TreeFormation.TreeNode root = TreeFormation.formTreeByLevel(null) ;

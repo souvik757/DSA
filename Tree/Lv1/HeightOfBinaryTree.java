@@ -2,11 +2,9 @@ package Lv1 ;
 
 import Lv0.* ;
 
-import java.util.Scanner;
-
 public class HeightOfBinaryTree {
     public static void main(String[] args) {
-        TreeFormation.TreeNode root = null ;
+        TreeFormation.TreeNode root = new TreeFormation.TreeNode() ;
         root = TreeFormation.formTreeByLevel(root) ;
         System.out.println("Given tree : "+ LevelOrder.levelOrder(root)) ;
 

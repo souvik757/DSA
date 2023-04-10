@@ -125,16 +125,16 @@ public class TreeFormation {
 
 // Form tree by recursion :
     public static TreeNode formTree(TreeNode root){
+        if(root.data == -1)
+            return null ;
         System.out.print("Enter value : ") ;
         int val = sc.nextInt() ;
         System.out.println() ;
         root = new TreeNode(val) ;
-        if(root.data == -1)
-            return null ;
-         // Value for left node :
+         // go to left node :
         System.out.println("Enter value of left node : ") ;
         root.left = formTree(root.left) ;
-        // Value for right node :
+        //  go to right node :
         System.out.println("Enter value of right node : ") ;
         root.right = formTree(root.right) ;
 
@@ -173,7 +173,7 @@ public class TreeFormation {
     public static void LevelOrderTraversal(TreeNode root){
         Queue<TreeNode> queue = new LinkedList<>() ;
         queue.add(root) ;
-        queue.add(null) ;
+        queue.add(null) ; // indicates completion of level
 
         while (!queue.isEmpty()){
             TreeNode temp = queue.peek() ;
@@ -182,7 +182,7 @@ public class TreeFormation {
             if(temp == null){
                 System.out.println() ;
                 if(!queue.isEmpty())
-                    queue.add(null) ;
+                    queue.add(null) ; // indicates completion of level
             }else{
                 System.out.print(temp.data+" ") ;
                 if(temp.left != null)
@@ -194,7 +194,7 @@ public class TreeFormation {
     }
 
     public static void main(String[] args) {
-        TreeNode root = null ;
+        TreeNode root = new TreeNode() ;
         //root = formTree(root) ;
 
         root = formTreeByLevel(root);

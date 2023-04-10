@@ -1,6 +1,8 @@
 package Lv1;
 
 import Lv0.TreeFormation;
+import com.sun.source.tree.Tree;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -12,6 +14,7 @@ public class _Second_Smallest_element_ {
     }
 }
 class SOLVE{
+    // Brute force ()
     public int _2ndSmall_(TreeFormation.TreeNode root){
         if(root==null) return -1 ;
         List<Integer> _store_ = new ArrayList<>() ;
@@ -36,5 +39,12 @@ class SOLVE{
         list.add(root.data) ;
         _fill_(root.left , list);
         _fill_(root.right , list);
+    }
+}
+class solutionOPT{
+    public int _get_second_smallest(TreeFormation.TreeNode root){
+        int value = -1 ;
+
+        return value ;
     }
 }

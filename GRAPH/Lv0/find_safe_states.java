@@ -1,9 +1,26 @@
 import java.util.* ;
 
 public class find_safe_states {
+    public static void main(String[] args) {
+        solutionG18 object = new solutionG18() ;
+        List<Integer> _list_ = object.eventualSafeNodes(new int[][]{
+                {1,2} ,
+                {2,3} ,
+                {5}   ,
+                {0}   ,
+                {5}   ,
+                {}    ,
+                {}
+        }) ;
+
+        System.out.println("Terminals nodes & nodes immediately associated with terminals \n=>"+_list_.toString()) ;
+    }
 }
 class solutionG18{
     public List<Integer> eventualSafeNodes(int[][] graph) {
+        System.out.println("Adjacency List's =>");
+        for(int i = 0 ; i < graph.length ; i++)
+            System.out.println(i+" -> "+Arrays.toString(graph[i])) ;
         int size = graph.length ;
         boolean[] Visited      = new boolean[size] ;
         boolean[] PathExplored = new boolean[size] ;

@@ -28,7 +28,7 @@ class solutionG17{
             adjList[srcAdj[i]].add(i) ;
         }
     }
-    private void SetCost(int N ,int[] cost){
+    private void SetCost(int N ,int[] cost) {
         _cost_ = new HashMap<>() ;
         for(int i = 0 ; i < N ; i++)
             _cost_.put(i,cost[i]) ;
@@ -38,21 +38,20 @@ class solutionG17{
 
         if(n == 1) return 0 ;
 
-        boolean[] visited = new boolean[n] ;
         MakeAdj(n,manager) ; // Adjacency List is prepared !
         for(int i = 0 ; i < n ; i++)
             System.out.println(i+"->"+adjList[i]) ;
         SetCost(n,informTime) ; // Setting Cost for each vertex .
         MaxTime = 0 ;
-        _traverse_by_dfs_(headID , MaxTime , visited) ;
+        _traverse_by_dfs_(headID , MaxTime) ;
 
         return MaxTime ;
     }
-    private void _traverse_by_dfs_(int i , int maxTime , boolean[] visited){
+    private void _traverse_by_dfs_(int i , int maxTime){
         int updateCost = maxTime + _cost_.get(i) ;
         MaxTime = Math.max(MaxTime , updateCost) ;
         for(int neighbors : adjList[i]){
-            _traverse_by_dfs_(neighbors , updateCost , visited);
+            _traverse_by_dfs_(neighbors , updateCost);
         }
     }
 }

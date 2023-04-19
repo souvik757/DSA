@@ -80,6 +80,27 @@ class TreeNode{	// FormTreeByLevel(root) ShowByLevel(root)
 			}
 		}
 	}
+	public void ShowInorder(TreeNode root){// L V R
+		if(root == null) return ;
+
+		ShowInorder(root.left) ;
+		System.out.print("-> "+root.data) ;
+		ShowInorder(root.right) ;
+	}
+	public void ShowPreOrder(TreeNode root){ // V L R
+		if(root == null) return ;
+
+		System.out.print("-> "+root.data) ;
+		ShowInorder(root.left) ;
+		ShowInorder(root.right) ;
+	}
+	public void ShowPostOrder(TreeNode root){ // L R V
+		if(root == null) return ;
+
+		ShowInorder(root.left) ;
+		ShowInorder(root.right) ;
+		System.out.print("-> "+root.data) ;
+	}
 }
 
 class solutionOPTIMIZED{// _Kth_ancestor_(root,NODE,K)

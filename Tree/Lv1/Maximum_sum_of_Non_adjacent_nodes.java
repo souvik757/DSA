@@ -25,15 +25,15 @@ class solution_{
 
         int a = root.data + pair1.second + pair2.second ;
         int b = Math.max(pair1.first,pair1.second) + Math.max(pair2.first,pair2.second) ;
-        pairs<Integer,Integer> answer = new pairs<>(a,b) ;
 
-        return answer ;
+        return new pairs<>(a,b) ;
     }
 }
 class pairs<K,V>{
     K first ;
     V second ;
 
+    @Deprecated
     public pairs() {
     }
 

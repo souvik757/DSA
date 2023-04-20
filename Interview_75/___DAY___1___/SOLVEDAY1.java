@@ -65,8 +65,30 @@ public class SOLVEDAY1 {
 
         return _list_ ;
     }
-    // QUES. 1706
+
+
+
+    // QUES. 1706 *** VVI
+
     public int[] findBall(int[][] grid) {
-        return new int[]{} ;
+        int[] ANSWER = new int[grid[0].length] ;
+        for (int i = 0; i < grid[0].length; i++) {
+            ANSWER[i] = CanGetOut(grid, 0, i) ;
+        }
+        return ANSWER ;
+    }
+    // dfs function --->
+    private int CanGetOut(int[][] grid , int i ,int j){
+        if ( i == grid.length )
+            return j ;
+        if ( (grid[i][j] == 1 && (j == grid[0].length - 1 || grid[i][j + 1] == -1)) ||
+                 (grid[i][j] == -1 && (j == 0 || grid[i][j - 1] == 1)))
+            return -1;
+
+
+        if (grid[i][j] == 1)
+            return CanGetOut(grid , i+1 , j+1) ;
+        else
+            return  CanGetOut(grid , i+1 , j-1) ;
     }
 }

@@ -7,6 +7,6 @@ public class _148_SortList {
         head.SHOW(head);
         head = object.sortList(head) ;
         System.out.println("\nAfter sorting : ") ;
-        head.SHOW(head);
+        head.SHOW(head) ;
     }
 }

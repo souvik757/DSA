@@ -21,6 +21,18 @@ public class ListNode {
             return length ;
         return SIZE(head.next , length+1) ;
     }
+    public ListNode GETMID(ListNode head) {
+        ListNode Tortoise = head ;
+        ListNode Hare     = head.next ;
+
+        while (Hare != null && Hare.next != null) {
+            Tortoise = Tortoise.next ;
+            Hare = Hare.next.next ;
+        }
+
+        return Tortoise ;
+    }
+
     // Demo List :
     public ListNode DEMOLIST(ListNode HEAD) {
         HEAD = new ListNode(20) ;

@@ -41,6 +41,6 @@ public class SOLVEDAY5 {
                 C++;
         }
         int space = ((n + 1) * (max - 1)) + C;
-        return (space < tasks.length) ? tasks.length : space;
+        return Math.max(space, tasks.length);
     }
 }

@@ -5,23 +5,23 @@ public class SOLVEDAY5 {
     public int longestPalindrome(String[] words) {
         Map<String,Integer> _map_ = new HashMap<>() ;
         int NUM   = 0 ;
-        int COUNT = 0 ;
+        int _COUNT_ = 0 ;
         for (String str : words) {
             String reverse = str.charAt(1)+""+str.charAt(0) ;
             if (_map_.getOrDefault(reverse,0) > 0){
                 NUM ++ ;
                 _map_.put(reverse , _map_.getOrDefault(reverse,0) - 1) ;
                 if (reverse.equals(str))
-                    COUNT -- ;
+                    _COUNT_ -- ;
             }
             else {
                 _map_.put(str , _map_.getOrDefault(str,0) + 1) ;
                 if (reverse.equals(str))
-                    COUNT ++ ;
+                    _COUNT_ ++ ;
             }
         }
 
-        return 4*NUM + (COUNT!=0 ? 2 : 0) ;
+        return 4*NUM + (_COUNT_!=0 ? 2 : 0) ;
     }
     // QUES 621 . Task Scheduler
     public int leastInterval(char[] tasks, int n) {

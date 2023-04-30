@@ -33,6 +33,7 @@ public class SOLVEDAY11 {
                 }
             }
         }
+        // Not cyclic :::
         for (int i = 0 ; i < N ; i ++) {
             if (!VISITED[i])
                 MakeArray(i,list,VISITED);
@@ -79,6 +80,38 @@ public class SOLVEDAY11 {
 
     // QUES 815 . Bus Routes
     public int numBusesToDestination(int[][] routes, int source, int target) {
-        return 0 ;
+        Map<Integer,List<Integer>> map = new HashMap<>() ;
+        for (int i = 0 ; i < routes.length ; i ++) {
+            for (int j = 0 ; j < routes[i].length ; j ++) {
+                map.putIfAbsent(routes[i][j] , new ArrayList<>()) ;
+                map.get(routes[i][j]).add(i) ;
+            }
+        }
+        HashSet<Integer> visitedBuses = new HashSet<>() ;
+        Queue<Integer> BusStops = new LinkedList<>() ;
+        BusStops.add(source) ;
+
+        int NumberOfBuses = 0 ;
+
+        while (!BusStops.isEmpty()) {
+            int size = BusStops.size() ;
+            for (int i = 0 ; i < size ; i ++) {
+                int frontbusstop = BusStops.remove() ;
+                if(frontbusstop == target)
+                    return NumberOfBuses ;
+                List<Integer> stops = map.get(frontbusstop) ;
+                for (int currentStop : stops) {
+                    if(visitedBuses.contains(currentStop))
+                        continue ;
+                    visitedBuses.add(currentStop) ;
+                    for (int j = 0 ; j < routes[currentStop].length ; j ++) {
+                        BusStops.add(routes[currentStop][j]) ;
+                    }
+                }
+            }
+            NumberOfBuses++ ;
+        }
+
+        return -1 ;
     }
 }

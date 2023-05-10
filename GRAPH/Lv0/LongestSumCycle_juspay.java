@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LongestSumCycle_juspay {
     public static void main(String[] args) {
-        SOLVEJUSAPAYOA object = new SOLVEJUSAPAYOA() ;
+        SOLVEJUSPAYOA1 object = new SOLVEJUSPAYOA1() ;
         Scanner sc = new Scanner(System.in) ;
         int N = sc.nextInt() ;
         int[] edges = new int[N] ;
@@ -14,7 +14,7 @@ public class LongestSumCycle_juspay {
         System.out.println(object.GetLongestSumCycle(N , edges));
     }
 }
-class SOLVEJUSAPAYOA{
+class SOLVEJUSPAYOA1 {
     private int MaxSum ;
 
     public int GetLongestSumCycle(int N , int[] edges) {

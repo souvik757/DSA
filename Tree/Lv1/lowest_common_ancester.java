@@ -6,8 +6,8 @@ public class lowest_common_ancester {
     public static void main(String[] args) {
         lowest_common_ancester result = new lowest_common_ancester() ;
         TreeFormation.TreeNode root = new TreeFormation.TreeNode() ;
-        TreeFormation.TreeNode node1 = new TreeFormation.TreeNode(12) ;
-        TreeFormation.TreeNode node2 = new TreeFormation.TreeNode(23) ;
+        TreeFormation.TreeNode node1 = new TreeFormation.TreeNode(5) ;
+        TreeFormation.TreeNode node2 = new TreeFormation.TreeNode(1) ;
         root = TreeFormation.formTreeByLevel(root) ;
         System.out.println("Lowest Common Ancester -> "+result._find_lca(root , node1 , node2).data);
     }

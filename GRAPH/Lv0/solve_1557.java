@@ -1,9 +1,5 @@
 import java.util.*;
 
-// Yet to be solved !!
-// VVI Khan's Algorithm .
-
-
 public class solve_1557 {
     public static void main(String[] args) {
         solutionG29 object = new solutionG29() ;
@@ -22,13 +18,28 @@ public class solve_1557 {
     }
 }
 class solutionG29{
-    private List<List<Integer>> ANSWER ;
-    private List<Integer> LIST ;
+    private LinkedList<Integer>[] adjList ;
+    private void MakeAdj(int Vertex , List<List<Integer>> edges){
+        adjList = new LinkedList[Vertex] ;
+        for (int i = 0 ; i < Vertex ; i++)
+            adjList[i] = new LinkedList<>() ;
+        for (List<Integer> val : edges){
+            adjList[val.get(0)].add(val.get(1));
+        }
+    }
     public List<Integer> findSmallestSetOfVertices(int n, List<List<Integer>> edges) {
-        ANSWER = new ArrayList<>() ;
-        LIST = new ArrayList<>() ;
-
-        return LIST ;
+        MakeAdj(n , edges) ;
+        int[] Indegre = new int[n] ;
+        for (int i = 0 ; i < n ; i ++)
+            Indegre[i] = 0 ;
+        for(List<Integer> val : edges)
+            Indegre[val.get(1)]++ ;
+        List<Integer> list = new ArrayList<>() ;
+        for (int i = 0 ; i < n ; i ++){
+            if(Indegre[i] == 0)
+                list.add(i) ;
+        }
+        return list ;
     }
 }
 

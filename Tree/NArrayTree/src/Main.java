@@ -47,11 +47,11 @@ public class Main {
                 }
                 case "upgrade()" -> {
                     System.out.println("Not functional !!");
-//                    num = new Scanner(System.in).nextInt();
-//                    System.out.print("user ");
-//                    user = new Scanner(System.in).nextInt();
-//                    boolean param_3 = obj.upgrade(num, user);
-//                    System.out.println(param_3);
+                    num = new Scanner(System.in).nextInt();
+                    System.out.print("user ");
+                    user = new Scanner(System.in).nextInt();
+                    boolean param_3 = obj.upgrade(num, user);
+                    System.out.println(param_3);
                 }
                 default -> System.exit(0);
             }
@@ -95,7 +95,34 @@ class LockingTree{
         return false ;
     }
 
-//    public boolean upgrade(int num, int user) {
-//        return true ;
-//    }
+    public boolean upgrade(int num, int user) {
+        if(locked[num] != 0 || !HasAnyUnlockedParent(num) || !HasLockedChild(num))
+            return false ;
+        UnlockAll(num);
+        locked[num] = user ;
+        return true ;
+    }
+    private boolean HasAnyUnlockedParent(int num){
+        int ancester = parent[num] ;
+        while (ancester != -1){
+            if(locked[ancester] != 0)
+                return false ;
+            ancester = parent[ancester] ;
+        }
+        return true ;
+    }
+    private boolean HasLockedChild(int num){
+        if(locked[num] != 0)
+            return true ;
+        for(int children : child[num]){
+            if(HasLockedChild(children))
+                return true ;
+        }
+        return false ;
+    }
+    private void UnlockAll(int num){
+        locked[num] = 0 ;
+        for (int descendant : child[num])
+            UnlockAll(descendant) ;
+    }
 }

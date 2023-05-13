@@ -41,13 +41,13 @@ class SOLVE743{
         for (int[] val : times){
             adjList.get(val[0]).add(new int[]{val[1],val[2]}) ;
         }
-//        System.out.println("node -> [neighbour,distance][][]..");
-//        for (int i = 1 ; i <= n ; i ++){
-//            System.out.print(i+"->");
-//            for (int[] list : adjList.get(i))
-//                System.out.print(Arrays.toString(list));
-//            System.out.println();
-//        }
+// *       System.out.println("node -> [neighbour,distance][][]..");
+// *       for (int i = 1 ; i <= n ; i ++){
+// *           System.out.print(i+"->");
+// *           for (int[] list : adjList.get(i))
+// *               System.out.print(Arrays.toString(list));
+// *           System.out.println();
+// *       }
     }
     public int networkDelayTime(int[][] times, int n, int k) {
         MakeAdj(n ,times) ;
@@ -55,14 +55,14 @@ class SOLVE743{
         for (int i = 0 ; i < n+1 ; i ++)
             distances[i] = Integer.MAX_VALUE ;
         /*
-        The comparator is specified as a lambda expression (x,y)->x[1]-y[1],
-        which takes two int arrays (x and y) and compares their second elements (x[1] and y[1]).
-        The comparator returns a negative value if x[1] is less than y[1],
-        zero if they are equal, and a positive value if x[1] is greater than y[1].
-        So, the PriorityQueue will order the int arrays in ascending order
-        based on their second element.
-        This means that when you remove elements from the queue using the poll() method,
-        the element with the smallest second element value will be returned first.
+        * The comparator is specified as a lambda expression (x,y)->x[1]-y[1],
+        * which takes two int arrays (x and y) and compares their second elements (x[1] and y[1]).
+        * The comparator returns a negative value if x[1] is less than y[1],
+        * zero if they are equal, and a positive value if x[1] is greater than y[1].
+        * So, the PriorityQueue will order the int arrays in ascending order
+        * based on their second element.
+        * This means that when you remove elements from the queue using the poll() method,
+        * the element with the smallest second element value will be returned first.
          */
         Queue<int[]> priorityqueue = new PriorityQueue<>((x,y)->x[1]-y[1]) ;
         priorityqueue.add(new int[]{k,0}) ;

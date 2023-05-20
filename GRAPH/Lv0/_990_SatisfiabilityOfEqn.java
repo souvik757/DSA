@@ -1,3 +1,4 @@
+// Disjoint Set Data Structure 2
 import java.util.Map ;
 import java.util.HashMap ;
 public class _990_SatisfiabilityOfEqn {
@@ -31,12 +32,15 @@ class SOLVE990 {
         return true ;
     }
 }
-class DisjointSet { // -- character sets --
+class DisjointSet { // -- character sets -- using Maps
     private Map<Character,Character> roots ;
     public DisjointSet() {
         roots = new HashMap<>() ;
         for (int i = 0 ; i <= 26 ; i ++)
             roots.put((char) (i+96) , (char) (i+96)) ;
+    }
+    public char find(char c){
+        return roots.get(c) ;
     }
     public void getUnion(char a,char b){
         char root_a = roots.get(a) ;

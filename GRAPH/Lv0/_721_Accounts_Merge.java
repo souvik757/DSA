@@ -1,3 +1,4 @@
+// Disjoint Set Data Structure 1
 import java.util.* ;
 public class _721_Accounts_Merge {
     public static void main(String[] args) {
@@ -95,7 +96,7 @@ class SOLVE721 {
         return answer ;
     }
 }
-class UnionFind {
+class UnionFind { // -- integer sets -- base concept
     private int[] root ;
 
     public UnionFind(int size) { // O(n)

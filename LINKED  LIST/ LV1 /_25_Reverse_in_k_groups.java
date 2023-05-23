@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Reverse_in_k_groups {
+public class _25_Reverse_in_k_groups {
     //-----------------------------------------------------------------------------------------------------------------
     //NODE FOR THE LIST :
     static class NODE
@@ -41,8 +41,11 @@ public class Reverse_in_k_groups {
             current = forward ;
             c++ ;
         }
-        if(forward != null)
-            HEAD.next = kReverse(forward , k) ;
+        if(forward != null) {
+//            if(size(forward) < k) // In case of strict restriction of K :::
+//                HEAD.next = forward ;
+            HEAD.next = kReverse(forward, k);
+        }
         return prev ;
     }
 

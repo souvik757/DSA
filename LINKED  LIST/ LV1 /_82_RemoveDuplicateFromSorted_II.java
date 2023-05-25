@@ -23,7 +23,7 @@ public class _82_RemoveDuplicateFromSorted_II {
         head.show(head);
     }
 }
-class SOLVE82{ // native approach using HashMap<>() :::
+class SOLVE82{ // naive approach using HashMap<>() :::
     Map<Integer, Integer> frequency = new HashMap<>() ;
     public ListNode deleteDuplicates(ListNode head) {
         UpdateMap(head) ;
@@ -64,10 +64,10 @@ class SOLVE82{ // native approach using HashMap<>() :::
         return head ;
     }
 }
-class SOLVE82Constant{
+class SOLVE82Constant{ // only 'll work on sorted list :::
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null) return null;
-        ListNode prev = new ListNode(-1) ; // current|----> head|---->
+        ListNode prev = new ListNode(-1) ; // prev|----> head|---->
         ListNode current = prev ;
         current.next = head ;
         while (current.next != null && current.next.next != null){

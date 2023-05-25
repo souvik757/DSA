@@ -1,12 +1,30 @@
 public class sort_list_0_1 {
-    static class node
-    {
-        int data ;
-        node next ;
-        node(int data){ this.data = data ; next = null ; }
+    public static void main(String[] args) {
+        SOLVE_01LIST object = new SOLVE_01LIST() ;
+        object.main() ;
     }
-
-    static node sort(node head) // T.C : O(n) S.C : O(1)
+}
+class SOLVE_01LIST{
+    public void main() {
+        node head = new node(1) ;
+        node n1 = new node(0) ;
+        node n2 = new node(1) ;
+        node n3 = new node(2) ;
+        node n4 = new node(0) ;
+        node n5 = new node(1) ;
+        node tail = new node(2) ;
+        head.next = n1 ;
+        n1.next = n2 ;
+        n2.next = n3 ;
+        n3.next = n4 ;
+        n4.next = n5 ;
+        n5.next = tail ;
+        tail.next = null ;
+        show_list(head);
+        show_list(sort(head));
+        show_list(sort_1(head));
+    }
+    private node sort(node head) // T.C : O(n) S.C : O(1)
     {
         if(head == null)
             return null;
@@ -44,7 +62,7 @@ public class sort_list_0_1 {
         System.out.println("SORTED");
         return head ;
     }
-    static node sort_1(node head) // T.C : O(n) S.C : O(1)
+    private node sort_1(node head) // T.C : O(n) S.C : O(1)
     {
         if(head == null)
             return null ;
@@ -81,7 +99,7 @@ public class sort_list_0_1 {
         return head ;
     }
 
-    static void show_list(node head)
+    private void show_list(node head)
     {
         if(head == null)
             return ;
@@ -93,24 +111,10 @@ public class sort_list_0_1 {
         }
         System.out.println("NULL");
     }
-
-    public static void main(String[] args) {
-        node head = new node(1) ;
-          node n1 = new node(0) ;
-          node n2 = new node(1) ;
-          node n3 = new node(2) ;
-          node n4 = new node(0) ;
-          node n5 = new node(1) ;
-        node tail = new node(2) ;
-        head.next = n1 ;
-          n1.next = n2 ;
-          n2.next = n3 ;
-          n3.next = n4 ;
-          n4.next = n5 ;
-          n5.next = tail ;
-        tail.next = null ;
-        show_list(head);
-        //show_list(sort(head));
-        show_list(sort_1(head));
-    }
+}
+class node
+{
+    int data ;
+    node next ;
+    node(int data){ this.data = data ; next = null ; }
 }

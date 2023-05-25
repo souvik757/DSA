@@ -3,24 +3,45 @@ import java.util.Map;
 
 public class _138_CopyListWithRandomPointer {
     public static void main(String[] args) {
-
+        SOLVE138 object = new SOLVE138() ;
     }
 }
 class SOLVE138 {
-    private Map<Node,Node> deepCopy = new HashMap<>() ;
+    private final Map<Node , Node> nodeMap = new HashMap<>() ;
     public Node copyRandomList(Node head) {
-        if(head == null)
-            return null;
-        if(deepCopy.containsKey(head))
-            return deepCopy.get(head);
-        Node newCopy = new Node(head.val) ;
-        deepCopy.put(head , newCopy) ;
-        newCopy.next = copyRandomList(head.next);
-        newCopy.random = copyRandomList(head.random);
+        Node demo = new Node(-1) ;
+        Node DeepCopy = null ;
+        DeepCopy = CopyList(demo , head) ;
+        Node original = head ;
+        Node current  = DeepCopy ;
 
-        return newCopy ;
+        while (original != null){
+            nodeMap.put(original , current) ;
+            original = original.next ;
+            current  = current.next  ;
+        }
+        original = head ;
+        current = DeepCopy ;
+        while (current != null){
+            current.random = nodeMap.get(original.random) ;
+            current = current.next ;
+            original = original.next ;
+        }
+
+        return DeepCopy ;
+    }
+    private Node CopyList(Node demo , Node head){
+        Node next = demo ;
+        Node temp = head ;
+        while (temp != null){
+            next.next = new Node(temp.val) ;
+            next = next.next ;
+            temp = temp.next ;
+        }
+        return demo.next ;
     }
 }
+// * -- Node Definition --
 final class Node {
     int val;
     Node next;

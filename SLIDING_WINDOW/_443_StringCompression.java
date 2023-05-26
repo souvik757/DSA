@@ -43,10 +43,8 @@ class SOLVE443 {
                 count++;  // Increment the counter for consecutive repeating characters
             } else {
                 chars[index] = chars[i - 1];  // Store the current character
-
                 if (count > 1) {
                     String countStr = String.valueOf(count);
-
                     for (char c : countStr.toCharArray()) {
                         chars[++index] = c;  // Store the count as separate characters
                     }

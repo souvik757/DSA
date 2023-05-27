@@ -1,5 +1,5 @@
 public class Linked_list_to_integer {
-    public class Node{
+    public static class Node{
         int data ;
         Node next ;
 

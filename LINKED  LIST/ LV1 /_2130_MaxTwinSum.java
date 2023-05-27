@@ -16,35 +16,6 @@ public class _2130_MaxTwinSum {
         System.out.println(object.pairSum(head1));
     }
 }
-class ListNode{
-    int val ;
-    ListNode next ;
-
-    public ListNode() {
-    }
-
-    public ListNode(int val) {
-        this.val = val;
-        this.next = null ;
-    }
-    public void show (ListNode Node){
-        if(Node == null)
-            return ;
-        System.out.print("->"+Node.val) ;
-        show(Node.next) ;
-    }
-    public ListNode GetDemoList(ListNode head , int max){
-        head = new ListNode(max) ;
-        ListNode current = head ;
-        while ( max > 1){
-            max-- ;
-            ListNode nextNode = new ListNode(max) ;
-            current.next = nextNode ;
-            current =current.next ;
-        }
-        return head ;
-    }
-}
 class Solution {
     private int MaxSum = Integer.MIN_VALUE ;
     public int pairSum(ListNode head) {

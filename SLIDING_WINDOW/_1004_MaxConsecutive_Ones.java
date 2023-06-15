@@ -7,6 +7,7 @@ public class _1004_MaxConsecutive_Ones {
         System.out.println(SOLVE_1004.findMaxConsecutiveOnes(new int[]{1,0})) ;
         System.out.println(SOLVE_1004.findMaxConsecutiveOnes(new int[]{0,0})) ;
         System.out.println(SOLVE_1004.longestOnes(new int[] {1,1,1,0,0,0,1,1,1,1,0},2)) ;
+        System.out.println(SOLVE_1004.longestOnes(new int[] {0,0,0,1},4)) ;
         System.out.println(SOLVE_1004.longestOnes(new int[] {0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1},3)) ;
     }
 }
@@ -28,7 +29,23 @@ class SOLVE_1004{
     }
 
     public static int longestOnes(int[] nums, int k) { // Max Consecutive Ones III
-
-        return -1 ;
+        int i = 0 ;
+        int j = 0 ;
+        while (j < nums.length){
+            if(nums[j] == 0)
+                k-- ;
+            if(k < 0){
+                if(nums[i] == 0)
+                    k++ ;
+                i++ ;
+            }
+            j++ ;
+        }
+        return j - i ;
     }
+
 }
+//   i
+// 0 1 2 3 4 5 6 7 8 9 10
+// 1 1 1 0 0 0 1 1 1 1  0   k = 2
+//   j   1 2 3

@@ -3,27 +3,31 @@ public class _2379_MinimumRecolorOperation {
         System.out.println(SOLVE_2379.minimumRecolors("WBBWWBBWBW" , 7)) ;
         System.out.println(SOLVE_2379.minimumRecolors("WBWBBBW"    , 2)) ;
         System.out.println(SOLVE_2379.minimumRecolors("BWWWBB"     , 6)) ;
+        System.out.println(SOLVE_2379.minimumRecolors("WWBBBWBBBBBWWBWWWB"     , 16)) ;
     }
 }
-class SOLVE_2379{
-    public static int minimumRecolors(String blocks, int k) {
-        int i = 0 ;
-        char[] Blocks = blocks.toCharArray() ;
-        int MinCounter = Integer.MAX_VALUE ;
 
-        while (i < Blocks.length-k){
-            int j = i ;
-            int counter = 0 ;
-            while (j < i+k){
-                if(Blocks[j] == 'W')
-                    counter++ ;
-                j ++ ;
+class SOLVE_2379{
+    public static int minimumRecolors(String blocks, int K) {
+        int right = 0 ;
+        int left  = 0 ;
+        int count = 0 ;
+        int k = K - 1 ;
+        int max = Integer.MAX_VALUE ;
+
+        while( right < blocks.length() ) {
+            if ( blocks.charAt(right) == 'W' )
+                count++ ;
+            if ( right == left + k ){
+                max = Math.min(count,max);
+                if( blocks.charAt(left) == 'W' ) // sliding towards right , if left point has W block then minus it .
+                    count--;
+                left++;
             }
-            MinCounter = Math.min(MinCounter , counter) ;
-            i ++ ;
+            right++;
         }
 
-        return (MinCounter == Integer.MAX_VALUE) ? 0 : MinCounter ;
+        return max;
     }
 }
 
@@ -37,3 +41,22 @@ class SOLVE_2379{
 
 // B W W W B B                   k = 6
 // 0 1 2 3 4 5
+
+// i
+// W W B B B W B B B B  B  W  W  B  W  W  W  B      k = 16 -> 15
+// 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17          18
+// j   2
+// j == i + k - 1
+
+//        int j = i ;
+//        int counter = 0 ;
+//        while (j < Blocks.length - k){
+//            if(j == i + k){
+//                MinCounter = Math.min(MinCounter , counter) ;
+//                i = j ;
+//                counter = 0 ;
+//            }
+//            if(blocks.charAt(j) == 'W')
+//                counter++ ;
+//            j++ ;
+//        }

@@ -1,4 +1,5 @@
 package HEAP ;
+
 // Heap is a Complete Binary Tree , that comes with a heap priority order of 2 types --
 // In MaxHeap , root.val will be greater than all its child's .
 // In MinHeap , root.val will be lesser  than all its child's .
@@ -17,7 +18,7 @@ public class heap { // MaxHeap
         size = size + 1 ;
         int index = size ;
         numbers[index] = X ;
-        System.out.print(X+" inserted");
+//        System.out.print(X+" inserted");
 
         while (index > 1){
             int parent = index/2 ;
@@ -33,7 +34,7 @@ public class heap { // MaxHeap
         if (size == 0)
             return;
 
-        System.out.print(numbers[1] + " deleted");
+//        System.out.print(numbers[1] + " deleted");
         numbers[1] = numbers[size];
         numbers[size] = 0;
         size--;
@@ -57,6 +58,14 @@ public class heap { // MaxHeap
                 return;
         }
     }
+    public int top(){
+        return numbers[1] ;
+    }
+    protected final void swap(int x ,int y){
+        int temp = numbers[x];
+        numbers[x] = numbers[y] ;
+        numbers[y]=temp ;
+    }
     public void getHeap(){
         int i = 1 ;
         System.out.println();
@@ -68,9 +77,35 @@ public class heap { // MaxHeap
             }
         }
     }
-    protected final void swap(int x ,int y){
-        int temp = numbers[x];
-        numbers[x] = numbers[y] ;
-        numbers[y]=temp ;
+    public void _heap_(int[] arr){
+        int n = arr.length - 1 ;
+        arr[0] = -1 ;
+        for (int i = n/2 ; i > 0 ; i --){
+            heapify(arr , n , i);
+        }
+        int i = 1 ;
+        System.out.println();
+        System.out.println("-> index"+"  val");
+        for (int val : arr){
+            if(val > -1 && val != 0) {
+                System.out.print("->   "+i+"    "+val+"\n");
+                i ++ ;
+            }
+        }
+    }
+    private void heapify(int[] arr , int n , int i){
+        int largestIndex = i ;
+        int leftIndex = 2*i ;
+        int rightIndex = 2*i + 1 ;
+        if(leftIndex <= n && arr[largestIndex] < arr[leftIndex])
+            largestIndex = leftIndex ;
+        if(rightIndex <= n && arr[largestIndex] < arr[rightIndex])
+            largestIndex = rightIndex ;
+        if(largestIndex != i){
+            int temp = arr[largestIndex] ;
+            arr[largestIndex] = arr[i] ;
+            arr[i] = temp ;
+            heapify(arr , n , largestIndex);
+        }
     }
 }

@@ -1,7 +1,5 @@
 package HEAP;
 
-import java.util.Objects;
-
 public class HeapRun {
     public static void main(String[] args) {
         heap heap = new heap() ;
@@ -29,5 +27,9 @@ public class HeapRun {
         heap.pop() ;
         heap.getHeap() ;
         System.out.println();
+        heap._heap_(new int[]{-99999 , 54,53,55,52,50});
+
+        HeapSort heapSort = new HeapSort() ;
+        heapSort.heapSort(new int[]{60,54,53,55,52,50});
     }
 }

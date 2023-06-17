@@ -1,5 +1,5 @@
 package HEAP;
-// Using o indexed MaxHeap
+// Using 0 indexed MaxHeap
 public class HeapSort {
     public void heapSort(int[] arr) {
         int size = arr.length;

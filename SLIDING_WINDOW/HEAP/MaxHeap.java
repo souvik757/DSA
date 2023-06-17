@@ -1,16 +1,15 @@
 package HEAP ;
 
-// Heap is a Complete Binary Tree , that comes with a heap priority order of 2 types --
-// In MaxHeap , root.val will be greater than all its child's .
-// In MinHeap , root.val will be lesser  than all its child's .
-//          CBT
-//           -> i.   must have 0 , 1 , 2 child only .
-//           -> ii.  insertion will be from left to right .
-//           -> iii. each level must be full. except the last one .
-public class heap { // MaxHeap
+public class MaxHeap { // MaxHeap
     private int   size    ;
-    private int[] numbers = new int[100] ;
-    public heap(){
+    private int[] numbers ;
+    public MaxHeap(){
+        numbers = new int[100000000] ;
+        size = 0 ;
+        numbers[0] = - 1 ;
+    }
+    public MaxHeap(int N){
+        numbers = new int[N+1] ;
         size = 0 ;
         numbers[0] = - 1 ;
     }

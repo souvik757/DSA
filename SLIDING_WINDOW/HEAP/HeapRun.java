@@ -2,7 +2,7 @@ package HEAP;
 
 public class HeapRun {
     public static void main(String[] args) {
-        heap heap = new heap() ;
+        MaxHeap heap = new MaxHeap() ;
         heap.add(60);
         heap.getHeap() ;
         System.out.println();

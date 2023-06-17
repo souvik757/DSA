@@ -1,7 +1,6 @@
 package HEAP.Problems;
 
 import java.util.PriorityQueue;
-
 public class _2336_SmallestNumber {
     public static void main(String[] args) {
         SmallestInfiniteSet smallestInfiniteSet = new SmallestInfiniteSet() ;

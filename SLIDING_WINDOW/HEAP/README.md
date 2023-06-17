@@ -25,7 +25,7 @@
 ````
 # Contents
 
-- ### [MaxHeap]()
-- ### [MinHeap]()
-- ### [GenericHeap]()
-- ### [HeapSort]()
+- ### [MaxHeap](https://github.com/souvik757/DSA/blob/master/SLIDING_WINDOW/HEAP/MaxHeap.java)
+- ### [MinHeap](https://github.com/souvik757/DSA/blob/master/SLIDING_WINDOW/HEAP/MinHeap.java)
+- ### [GenericHeap](https://github.com/souvik757/DSA/blob/master/SLIDING_WINDOW/HEAP/GenericHeap.java)
+- ### [HeapSort](https://github.com/souvik757/DSA/blob/master/SLIDING_WINDOW/HEAP/HeapSort.java)

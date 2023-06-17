@@ -7,7 +7,8 @@
 - [Sliding Window](#sliding-window)
 - [Stack](#stack)
 - [Tree](#tree)
-- [Graph](#Graph)
+- [Heap](#heap)
+- [Graph](#graph)
 
 ## Linked List
 
@@ -39,6 +40,10 @@
 
 - [Level 0 - basics](https://github.com/souvik757/DSA/tree/master/Tree/Lv0)
 - [Level 1 - intermediate](https://github.com/souvik757/DSA/tree/master/Tree/Lv1)
+
+## Heap
+
+- [Click here](https://github.com/souvik757/DSA/tree/master/SLIDING_WINDOW/HEAP)
 
 ## Graph
 ### -- Level --

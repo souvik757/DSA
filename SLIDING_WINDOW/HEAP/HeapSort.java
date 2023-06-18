@@ -3,7 +3,7 @@ package HEAP;
 public class HeapSort {
     public void heapSort(int[] arr) {
         int size = arr.length;
-        for (int i = size / 2 - 1; i >= 0; i--) {
+        for (int i = size / 2 - 1; i >= 0; i--) { // in case of 1 based indexing i = size / 2
             heapify(arr, size, i);
         }
         for (int i = size - 1; i >= 0; i--) {
@@ -20,8 +20,8 @@ public class HeapSort {
 
     private void heapify(int[] arr, int size, int i) {
         int largestIndex = i;
-        int leftIndex = 2 * i + 1;
-        int rightIndex = 2 * i + 2;
+        int leftIndex    = 2 * i + 1;
+        int rightIndex   = 2 * i + 2;
 
         if (leftIndex < size && arr[leftIndex] > arr[largestIndex])
             largestIndex = leftIndex;

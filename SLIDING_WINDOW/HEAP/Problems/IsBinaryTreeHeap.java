@@ -30,6 +30,9 @@ class SOLVE{
 // Binary Tree
 // CreateByLevel()
 // ShowByLevel()
+// IsCBT()
+// IsMaxHeap()
+// IsMinHeap()
 class TreeNode{
     int count = 0 ; // counts number of nodes in the binary tree
     int val ;

@@ -1,7 +1,12 @@
+package NArrayTree.src;
+
+// Juspay Project round 1 :
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
+
 //Input
 //        ["LockingTree", "lock", "unlock", "unlock", "lock", "upgrade", "lock"]
 //        [[[-1 0 0 1 1 2 2]], [2, 2], [2, 3], [2, 2], [4, 5], [0, 1], [0, 1]]
@@ -11,20 +16,24 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("2 <= n <= 2000");
         System.out.println("0 <= parent[i] <= n - 1 for i != 0\n"+"parent[0] == -1");
-        System.out.println("\n" +
-                "lock(int num, int user)\n" +
-                "unlock(int num, int user)\n" +
-                "upgrade(int num, int user)");
+        System.out.print("enter number of nodes ");
         int n = new Scanner(System.in).nextInt() ;
-        int num ;
-        int user ;
         int[] parent = new int[n] ;
+        System.out.print("enter parent of each node ");
         for (int i = 0 ; i < n ; i++)
             parent[i] = new Scanner(System.in).nextInt() ;
         System.out.println(Arrays.toString(parent));
-        LockingTree obj = new LockingTree(parent);
+        System.out.println("\n" +
+                "lock()\n" +
+                "unlock()\n" +
+                "upgrade()\n"+
+                "stop\n"+
+                "num - node \nuser - user to operate node");
 
+        int num ;
+        int user ;
         String operation = "" ;
+        LockingTree obj = new LockingTree(parent);
         while (!operation.equals("stop")){
             System.out.print("-> ");
             operation = new Scanner(System.in).next() ;
@@ -46,7 +55,7 @@ public class Main {
                     System.out.println(param_2);
                 }
                 case "upgrade()" -> {
-                    System.out.println("Not functional !!");
+                    System.out.println("num ");
                     num = new Scanner(System.in).nextInt();
                     System.out.print("user ");
                     user = new Scanner(System.in).nextInt();
@@ -126,3 +135,6 @@ class LockingTree{
             UnlockAll(descendant) ;
     }
 }
+// Juspay project round 2 :
+// - Make the above solution 'thread-safe' without using any extra variable more than 1 .
+// . . . .

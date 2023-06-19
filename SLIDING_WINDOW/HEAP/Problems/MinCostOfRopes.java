@@ -14,7 +14,7 @@ class solution {
     public long MinCost(int[] ropes){
         long cost = 0 ;
         Queue<Integer> minheap = new PriorityQueue<>() ; // minheap
-        // hence , usually priority queue inserts elements in ascending order , i.e, smallest-element at the top .
+//      hence , usually priority queue inserts elements in ascending order , i.e, smallest-element at the top .
 //      Queue<Integer> minheap = new PriorityQueue<>(Comparator.reverseOrder()) ; // maxheap i.e, largest-element at the top .
         for (int val : ropes) minheap.offer(val) ;
         while (minheap.size() > 1){

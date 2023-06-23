@@ -6,6 +6,7 @@ public class _502_IPO {
     public static void main(String[] args) {
         SOLVE_502 object = new SOLVE_502() ;
         System.out.println(object.findMaximizedCapital(2,0,new int[]{1,2,3},new int[]{0,1,1}));     // 4
+        System.out.println(object.findMaximizedCapital(3,0,new int[]{1,2,3},new int[]{0,1,2}));     // 6
         System.out.println(object.findMaximizedCapital(3,0,new int[]{1,4,5,2},new int[]{0,1,1,2})); // 10
     }
 }

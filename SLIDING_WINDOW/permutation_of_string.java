@@ -11,7 +11,7 @@ public class permutation_of_string
         List<List<String>> answer_str = new ArrayList<>() ;
         // using extra space
         obj2.solve(answer_str , output_str , str ) ;
-        System.out.println("Permutation of "+Arrays.toString(str)+"\n : "+answer_str);
+        System.out.println("Permutation "+Arrays.toString(str)+"\n : "+answer_str);
         answer_str.clear() ;
         // without using extra space
         obj2._solve_(answer_str , str , 0) ;

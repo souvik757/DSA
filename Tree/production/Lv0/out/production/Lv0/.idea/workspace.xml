@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae08894c-55d5-41a0-a977-3bf942271fa3" name="Changes" comment="&lt;-- Union Find ✔ --&gt;">
+      <change afterPath="$PROJECT_DIR$/../../.idea/DSA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DisjointSets/OverView_Of_DisjointSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DisjointSets/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lv0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_1061_SmallestLexString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/.idea/Interview_75.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___10___/.idea/___DAY___10___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___11___/.idea/___DAY___11___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___11___/out/production/___DAY___11___/.idea/___DAY___11___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___12___/.idea/___DAY___12___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___12___/out/production/___DAY___12___/.idea/___DAY___12___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___13___/.idea/___DAY___13___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___13___/out/production/___DAY___13___/.idea/___DAY___13___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___14___/.idea/___DAY___14___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___14___/out/production/___DAY___14___/.idea/___DAY___14___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___15___/.idea/___DAY___15___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___15___/out/production/___DAY___15___/.idea/___DAY___15___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___1___/.idea/___DAY___1___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___1___/out/production/___DAY___1___/.idea/___DAY___1___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___2___/.idea/___DAY___2___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___3___/.idea/___DAY___3___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___3___/out/production/___DAY___3___/.idea/___DAY___3___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___4___/.idea/___DAY___4___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___4___/out/production/___DAY___4___/.idea/___DAY___4___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___5___/.idea/___DAY___5___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___5___/out/production/___DAY___5___/.idea/___DAY___5___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___6___/.idea/___DAY___6___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___6___/out/production/___DAY___6___/.idea/___DAY___6___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___7___/.idea/___DAY___7___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___7___/out/production/___DAY___7___/.idea/___DAY___7___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___8___/.idea/___DAY___8___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___8___/out/production/___DAY___8___/.idea/___DAY___8___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___9___/.idea/___DAY___9___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___9___/out/production/___DAY___9___/.idea/___DAY___9___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../LINKED  LIST/ LV1 /_2130_MaxTwinSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/RECURSION AND BIN-SEARCH.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/.idea/ LV1 .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/.idea/ LV2 .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/.idea/ LVO .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/out/production/ LV0 /.idea/ LV0 .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/out/production/ LV1 /.idea/ LV1 .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/out/production/ LV2 /.idea/ LV2 .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/out/production/ LVO /.idea/ LVO .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/ LV2 /SubsetsOfStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tree/Lv1/Lv1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tree/NArrayTree/NArrayTree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tree/out/production/Tree/Lv1/Lv1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tree/out/production/Tree/production/Lv0/Lv0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Tree/production/Lv0/Lv0.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Toposort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Toposort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_721_Accounts_Merge.java" beforeDir="false" afterPath="$PROJECT_DIR$/_721_Accounts_Merge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_990_SatisfiabilityOfEqn.java" beforeDir="false" afterPath="$PROJECT_DIR$/_990_SatisfiabilityOfEqn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/longest_cycle_directed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/solve_886.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interview_75/___DAY___11___/SOLVEDAY11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___11___/SOLVEDAY11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interview_75/___DAY___12___/SOLVEDAY12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___12___/SOLVEDAY12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interview_75/___DAY___14___/SOLVEDAY14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___14___/SOLVEDAY14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Interview_75/___DAY___14___/_76_MinimumWindowSubString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Interview_75/___DAY___14___/_76_MinimumWindowSubString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LINKED  LIST/ LV1 /Linked_list_to_integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LINKED  LIST/ LV1 /Linked_list_to_integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LINKED  LIST/ LV1 /merge_two_sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../LINKED  LIST/ LV1 /merge_two_sorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LINKED  LIST/ LV1 /out/production/ LV1 /merge_two_sorted$node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LINKED  LIST/ LV1 /out/production/ LV1 /merge_two_sorted$node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../LINKED  LIST/ LV1 /out/production/ LV1 /merge_two_sorted.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../LINKED  LIST/ LV1 /out/production/ LV1 /merge_two_sorted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/ LV2 /out/production/ LV2 /permutation_of_string.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/ LV2 /out/production/ LV2 /permutation_of_string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/ LV2 /out/production/ LV2 /result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/ LV2 /out/production/ LV2 /subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/ LV2 /out/production/ LV2 /subsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/ LV2 /permutation_of_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/ LV2 /permutation_of_string.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/ LV2 /subsets.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../RECURSION AND BIN-SEARCH/ LV2 /subsets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tree/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tree/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tree/Lv0/TreeFormation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tree/Lv0/TreeFormation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tree/Lv1/top_view_.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tree/Lv1/top_view_.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tree/out/production/Tree/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tree/out/production/Tree/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tree/out/production/Tree/Lv0/TreeFormation$TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tree/out/production/Tree/Lv0/TreeFormation$TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tree/out/production/Tree/Lv0/TreeFormation.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tree/out/production/Tree/Lv0/TreeFormation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Tree/out/production/Tree/Lv1/pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../Tree/out/production/Tree/Lv1/pair.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NjnkJMQdqwttTAKBIkHgY4tC72" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "E:/DSA/GRAPH/Lv0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application._1061_SmallestLexString">
+    <configuration name="DFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DFS" />
+      <module name="Lv0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_1061_SmallestLexString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1061_SmallestLexString" />
+      <module name="Lv0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_990_SatisfiabilityOfEqn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_990_SatisfiabilityOfEqn" />
+      <module name="Lv0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_cycle_detection_" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_cycle_detection_" />
+      <module name="Lv0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application._1061_SmallestLexString" />
+        <item itemvalue="Application._990_SatisfiabilityOfEqn" />
+        <item itemvalue="Application._cycle_detection_" />
+        <item itemvalue="Application.DFS" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae08894c-55d5-41a0-a977-3bf942271fa3" name="Changes" comment="" />
+      <created>1680186500668</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680186500668</updated>
+    </task>
+    <task id="LOCAL-00001" summary="getting there">
+      <created>1680361310352</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680361310352</updated>
+    </task>
+    <task id="LOCAL-00002" summary="&lt;-- Union Find ✔ --&gt;">
+      <created>1684473368151</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684473368151</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="getting there" />
+    <MESSAGE value="&lt;-- Union Find ✔ --&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;-- Union Find ✔ --&gt;" />
+  </component>
+</project>

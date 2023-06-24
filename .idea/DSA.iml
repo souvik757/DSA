@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/GRAPH/Lv0" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___10___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___11___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___12___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___13___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___14___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___15___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___1___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___2___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___3___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___4___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___5___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___6___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___7___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___8___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interview_75/___DAY___9___" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LINKED  LIST/ LV0 " isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LINKED  LIST/ LV1 " isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RECURSION AND BIN-SEARCH/ LV0 " isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RECURSION AND BIN-SEARCH/ LV1 " isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RECURSION AND BIN-SEARCH/ LV2 " isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SLIDING_WINDOW" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/STACK/ LV0 " isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/STACK/ LV1 " isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tree" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

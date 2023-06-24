@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="15fa0d67-e93f-46f3-a1aa-61f95c6a2511" name="Changes" comment="&lt;-- [ Disjoint Set ] U [ Union Find ]✔ --&gt;">
+      <change beforePath="$PROJECT_DIR$/Lv0/Dislikes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lv0/Dislikes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lv0/longest_cycle_directed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lv0/longest_cycle_directed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lv0/longest_shorest_cycle_directed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lv0/longest_shorest_cycle_directed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lv0/solve_886.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lv0/solve_886.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.jdks/corretto-17.0.6/lib/src.zip!/java.base/java/util/Queue.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Lv0/_all_paths_directed_.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Lv0/max_time_to_inform_find_cost.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GUfdz0XBE3Q9ZrJUgTY265MU7T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-19",
+    "last_opened_file_path": "E:/DSA/LINKED  LIST",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.completion"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\DSA\GRAPH\DisjointSets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application._1857_LargestColorValue">
+    <configuration name="CountIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountIslands" />
+      <module name="Lv0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_01_matrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_matrix" />
+      <module name="Lv0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_130_SurroundedRegion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_130_SurroundedRegion" />
+      <module name="Lv0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_1857_LargestColorValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1857_LargestColorValue" />
+      <module name="Lv0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pacific_atlantic_flow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pacific_atlantic_flow" />
+      <module name="Lv0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application._1857_LargestColorValue" />
+        <item itemvalue="Application._01_matrix" />
+        <item itemvalue="Application._130_SurroundedRegion" />
+        <item itemvalue="Application.pacific_atlantic_flow" />
+        <item itemvalue="Application.CountIslands" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15fa0d67-e93f-46f3-a1aa-61f95c6a2511" name="Changes" comment="" />
+      <created>1666448174805</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666448174805</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commited -">
+      <created>1680192110585</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680192110585</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commited -">
+      <created>1680531830247</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680531830247</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commited -">
+      <created>1680540805367</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680540805367</updated>
+    </task>
+    <task id="LOCAL-00004" summary="commited -">
+      <created>1680672629413</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680672629413</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commited -">
+      <created>1680711975318</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680711975318</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commited -">
+      <created>1680757003481</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680757003481</updated>
+    </task>
+    <task id="LOCAL-00007" summary="commited -">
+      <created>1680842525641</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680842525641</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commited -">
+      <created>1680880624339</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680880624339</updated>
+    </task>
+    <task id="LOCAL-00009" summary="commited -">
+      <created>1680880775336</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680880775336</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commited -">
+      <created>1680928696560</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680928696560</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commited -">
+      <created>1680936519454</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680936519454</updated>
+    </task>
+    <task id="LOCAL-00012" summary="commited -">
+      <created>1680967911011</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680967911011</updated>
+    </task>
+    <task id="LOCAL-00013" summary="commited -">
+      <created>1681020876970</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681020876970</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commited -">
+      <created>1681052284962</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681052284962</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commited -">
+      <created>1681055110646</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681055110646</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commited -">
+      <created>1681055160488</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681055160488</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commited -">
+      <created>1681135002857</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681135002857</updated>
+    </task>
+    <task id="LOCAL-00018" summary="commited -">
+      <created>1681183955674</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681183955674</updated>
+    </task>
+    <task id="LOCAL-00019" summary="commited -">
+      <created>1681189329367</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1681189329368</updated>
+    </task>
+    <task id="LOCAL-00020" summary="commited -">
+      <created>1681228920363</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1681228920363</updated>
+    </task>
+    <task id="LOCAL-00021" summary="commited -">
+      <created>1681271102407</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1681271102407</updated>
+    </task>
+    <task id="LOCAL-00022" summary="commited -">
+      <created>1681278181897</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1681278181897</updated>
+    </task>
+    <task id="LOCAL-00023" summary="commited -">
+      <created>1681278543991</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1681278543991</updated>
+    </task>
+    <task id="LOCAL-00024" summary="commited -">
+      <created>1681364514124</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1681364514124</updated>
+    </task>
+    <task id="LOCAL-00025" summary="commited -">
+      <created>1681450840419</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1681450840419</updated>
+    </task>
+    <task id="LOCAL-00026" summary="commited -">
+      <created>1681485343515</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1681485343515</updated>
+    </task>
+    <task id="LOCAL-00027" summary="commited -">
+      <created>1681486499080</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1681486499080</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Yet to be solved ones !">
+      <created>1681658886476</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1681658886476</updated>
+    </task>
+    <task id="LOCAL-00029" summary="&lt;-- Solved Bipartite &amp; Mutation --&gt;">
+      <created>1682179501834</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1682179501834</updated>
+    </task>
+    <task id="LOCAL-00030" summary="&lt;-- ReadMe added Graph ✔ --&gt;">
+      <created>1682180077649</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1682180077649</updated>
+    </task>
+    <task id="LOCAL-00031" summary="&lt;-- solved Possible Bi-partition 886 ✔ --&gt;">
+      <created>1682435215783</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1682435215783</updated>
+    </task>
+    <task id="LOCAL-00032" summary="&lt;-- VVI Maze traversal + cycle detection✔ --&gt;">
+      <created>1683267470872</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1683267470872</updated>
+    </task>
+    <task id="LOCAL-00033" summary="&lt;-- VVI Maze traversal + cycle detection✔ --&gt;">
+      <created>1683301626415</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1683301626415</updated>
+    </task>
+    <task id="LOCAL-00034" summary="&lt;-- VVI✔ --&gt;">
+      <created>1683564872171</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1683564872171</updated>
+    </task>
+    <task id="LOCAL-00035" summary="&lt;-- VVI Juspay OA Graph Questions✔ --&gt;">
+      <created>1683691543145</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1683691543146</updated>
+    </task>
+    <task id="LOCAL-00036" summary="&lt;-- VVI Dijkstra's Algorithm Implementations✔ --&gt;">
+      <created>1683878453628</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1683878453628</updated>
+    </task>
+    <task id="LOCAL-00037" summary="&lt;-- VVI Dijkstra's Algorithm Implementations✔ --&gt;">
+      <created>1683954944428</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1683954944428</updated>
+    </task>
+    <task id="LOCAL-00038" summary="&lt;-- Minimum Spanning Tree (Prim's Algorithm)✔ --&gt;">
+      <created>1684044447457</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1684044447457</updated>
+    </task>
+    <task id="LOCAL-00039" summary="&lt;-- Edge Relaxation tricky concept (Dijkstra's Algorithm)✔ --&gt;">
+      <created>1684127979590</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1684127979590</updated>
+    </task>
+    <task id="LOCAL-00040" summary="&lt;-- Minimum Spanning Tree (Prim's Algorithm)✔ - actually hard--&gt;">
+      <created>1684128132108</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1684128132108</updated>
+    </task>
+    <task id="LOCAL-00041" summary="&lt;-- Shortest Distance in Directed &amp; UnDirected Graphs✔ --&gt;">
+      <created>1684208449926</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1684208449926</updated>
+    </task>
+    <task id="LOCAL-00042" summary="&lt;-- Disjoint Sets✔ --&gt;">
+      <created>1684217242780</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1684217242780</updated>
+    </task>
+    <task id="LOCAL-00043" summary="&lt;-- [ Disjoint Set ] U [ Union Find ]✔ --&gt;">
+      <created>1684388755422</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1684388755422</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commited -" />
+    <MESSAGE value="Yet to be solved ones !" />
+    <MESSAGE value="&lt;-- Solved Bipartite &amp; Mutation --&gt;" />
+    <MESSAGE value="&lt;-- ReadMe added Graph ✔ --&gt;" />
+    <MESSAGE value="&lt;-- solved Possible Bi-partition 886 ✔ --&gt;" />
+    <MESSAGE value="&lt;-- VVI ✔ --&gt;" />
+    <MESSAGE value="&lt;-- VVI Maze traversal + cycle detection✔ --&gt;" />
+    <MESSAGE value="&lt;-- VVI✔ --&gt;" />
+    <MESSAGE value="&lt;-- VVI Juspay OA Graph Questions✔ --&gt;" />
+    <MESSAGE value="&lt;-- VVI Dijkstra's Algorithm Implementations✔ --&gt;" />
+    <MESSAGE value="&lt;-- Minimum Spanning Tree (Prim's Algorithm)✔ --&gt;" />
+    <MESSAGE value="&lt;-- Edge Relaxation tricky concept (Dijkstra's Algorithm)✔ --&gt;" />
+    <MESSAGE value="&lt;-- Minimum Spanning Tree (Prim's Algorithm)✔ - actually hard--&gt;" />
+    <MESSAGE value="&lt;-- Shortest Distance in Directed &amp; UnDirected Graphs✔ --&gt;" />
+    <MESSAGE value="&lt;-- Disjoint Sets✔ --&gt;" />
+    <MESSAGE value="&lt;-- [ Disjoint Set ] U [ Union Find ]✔ --&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;-- [ Disjoint Set ] U [ Union Find ]✔ --&gt;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Lv0/Number_of_Provinces.java</url>
+          <line>30</line>
+          <properties class="solutionG15" method="findCircleNum">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

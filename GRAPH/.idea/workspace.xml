@@ -5,10 +5,122 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15fa0d67-e93f-46f3-a1aa-61f95c6a2511" name="Changes" comment="&lt;-- [ Disjoint Set ] U [ Union Find ]✔ --&gt;">
-      <change beforePath="$PROJECT_DIR$/Lv0/Dislikes.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lv0/Dislikes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lv0/longest_cycle_directed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lv0/longest_cycle_directed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lv0/longest_shorest_cycle_directed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lv0/longest_shorest_cycle_directed.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lv0/solve_886.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lv0/solve_886.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DisjointSets/OverView_Of_DisjointSets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DisjointSets/UnionFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lv0/PlayerOfTheYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/.idea/Interview_75.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___10___/.idea/___DAY___10___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___11___/.idea/___DAY___11___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___11___/out/production/___DAY___11___/.idea/___DAY___11___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___12___/.idea/___DAY___12___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___12___/out/production/___DAY___12___/.idea/___DAY___12___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___13___/.idea/___DAY___13___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___13___/out/production/___DAY___13___/.idea/___DAY___13___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___14___/.idea/___DAY___14___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___14___/out/production/___DAY___14___/.idea/___DAY___14___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___15___/.idea/___DAY___15___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___15___/out/production/___DAY___15___/.idea/___DAY___15___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___1___/.idea/___DAY___1___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___1___/out/production/___DAY___1___/.idea/___DAY___1___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___2___/.idea/___DAY___2___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___3___/.idea/___DAY___3___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___3___/out/production/___DAY___3___/.idea/___DAY___3___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___4___/.idea/___DAY___4___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___4___/out/production/___DAY___4___/.idea/___DAY___4___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___5___/.idea/___DAY___5___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___5___/out/production/___DAY___5___/.idea/___DAY___5___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___6___/.idea/___DAY___6___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___6___/out/production/___DAY___6___/.idea/___DAY___6___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___7___/.idea/___DAY___7___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___7___/out/production/___DAY___7___/.idea/___DAY___7___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___8___/.idea/___DAY___8___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___8___/out/production/___DAY___8___/.idea/___DAY___8___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___9___/.idea/___DAY___9___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___9___/out/production/___DAY___9___/.idea/___DAY___9___.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LINKED  LIST/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV0 /SinglyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV0 /out/production/ LV0 /SinglyList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV0 /out/production/ LV0 /SingularList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV0 /out/production/ LV0 /node.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_23_MergeKSortedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/.idea/ LV1 .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/.idea/ LV2 .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/.idea/ LVO .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/SubsetsOfStrings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/out/production/ LV0 /.idea/ LV0 .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/out/production/ LV1 /.idea/ LV1 .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/out/production/ LV2 /.idea/ LV2 .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/out/production/ LVO /.idea/ LVO .iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/ LV1 /_2300_SuccessfulPairsOfSpellsAndPotions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/ LV1 /_875_KokoEatingBananas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/ LV2 /SubsetsOfStrings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/HEAP/Problems/_23_merge_k_list.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/HEAP/Problems/kth_maximum_sum_subarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/HEAP/Problems/merge_k_sorted_arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/SOLVE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/Lv1/Lv1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/NArrayTree/NArrayTree.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/out/production/Tree/Lv1/Lv1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/out/production/Tree/production/Lv0/Lv0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/production/Lv0/Position.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/production/Lv0/SOLVE909.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tree/production/Lv0/_909_SnakeAndLadders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Trie/TrieUtils/Trie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Trie/TrieUtils/TrieNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lv0/CountIslands.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lv0/CountIslands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lv0/longest_cycle_directed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lv0/solve_886.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/.idea/LINKED  LIST.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/.idea/LINKED  LIST.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV0 /Singly_List.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV0 /out/production/ LV0 /Singly_List$node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV0 /out/production/ LV0 /Singly_List.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /Palindrome_OR_not.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /Palindrome_OR_not.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_2130_MaxTwinSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_2130_MaxTwinSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_25_Reverse_in_k_groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_25_Reverse_in_k_groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_82_RemoveDuplicateFromSorted_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_82_RemoveDuplicateFromSorted_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_86_partition_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_86_partition_list.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_92_ReverseList_II.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_92_ReverseList_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /Palindrome_OR_not.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /Palindrome_OR_not.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /Reverse_in_k_groups$NODE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /Reverse_in_k_groups.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /SOLVE138.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /SOLVE138.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /SOLVE82.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /SOLVE82.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /SOLVE82Constant.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /SOLVE82Constant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /SOLVE86.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /SOLVE86.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /SOLVE_01LIST.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /SOLVE_01LIST.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /_138_CopyListWithRandomPointer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /_138_CopyListWithRandomPointer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /_25_Reverse_in_k_groups.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /_25_Reverse_in_k_groups.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /node.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /sort_list_0_1$node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /sort_list_0_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /sort_list_0_1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /sort_list_0_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /sort_list_0_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/permutation_of_string.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/permutation_of_string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/subsets$solve.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/subsets$solve.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/subsets.class" beforeDir="false" afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/subsets.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/ LV2 /out/production/ LV2 /result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SLIDING_WINDOW/HEAP/Problems/MinCostOfRopes.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/HEAP/Problems/MinCostOfRopes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SLIDING_WINDOW/HEAP/Problems/_373_Find_k_SmallestSumPairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/HEAP/Problems/_373_Find_k_SmallestSumPairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SLIDING_WINDOW/HEAP/Problems/_502_IPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/HEAP/Problems/_502_IPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SLIDING_WINDOW/HEAP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/HEAP/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/HEAP/Problems/SOLVE_373.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/HEAP/Problems/SOLVE_373.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/HEAP/Problems/SOLVE_502.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/HEAP/Problems/SOLVE_502.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/HEAP/Problems/_373_Find_k_SmallestSumPairs.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/HEAP/Problems/_373_Find_k_SmallestSumPairs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/HEAP/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/HEAP/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/permutation_of_string.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/permutation_of_string.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/CountIslands.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/CountIslands.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/Dislikes.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/Dislikes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/Toposort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/Toposort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/ToposortKahns.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/ToposortKahns.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/longest_shorest_cycle_directed.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/longest_shorest_cycle_directed.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/solution012.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/solution012.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/solutionG00E.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/solutionG00E.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/solutionG31.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/solutionG31.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,27 +152,30 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "E:/DSA/LINKED  LIST",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Merging master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Souvik Maity/AndroidStudioProjects/Reminder/README.md&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\DSA\GRAPH\DisjointSets" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application._1857_LargestColorValue">
+}</component>
+  <component name="RunManager" selected="Application.PlayerOfTheYear">
     <configuration name="CountIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountIslands" />
+      <module name="Lv0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PlayerOfTheYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PlayerOfTheYear" />
       <module name="Lv0" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -73,22 +188,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_130_SurroundedRegion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_130_SurroundedRegion" />
+    <configuration name="_721_Accounts_Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_721_Accounts_Merge" />
       <module name="Lv0" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1857_LargestColorValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1857_LargestColorValue" />
-      <module name="Lv0" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="pacific_atlantic_flow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pacific_atlantic_flow" />
+    <configuration name="_909_SnakeAndLadders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_909_SnakeAndLadders" />
       <module name="Lv0" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._1857_LargestColorValue" />
+        <item itemvalue="Application.PlayerOfTheYear" />
         <item itemvalue="Application._01_matrix" />
-        <item itemvalue="Application._130_SurroundedRegion" />
-        <item itemvalue="Application.pacific_atlantic_flow" />
         <item itemvalue="Application.CountIslands" />
+        <item itemvalue="Application._909_SnakeAndLadders" />
+        <item itemvalue="Application._721_Accounts_Merge" />
       </list>
     </recent_temporary>
   </component>

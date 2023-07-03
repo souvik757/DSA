@@ -13,8 +13,8 @@ class SOLVE92{
     public ListNode reverseBetween(ListNode head, int left, int right) {
         ListNode ref_0 = head ;
         ListNode ref_1 = head ;
-        pair<ListNode,ListNode> leftNode  = getElement(ref_0 , left) ;
-        pair<ListNode,ListNode> rightNode = getElement(ref_1 , right) ;
+        pair<ListNode, ListNode> leftNode  = getElement(ref_0 , left) ;
+        pair<ListNode, ListNode> rightNode = getElement(ref_1 , right) ;
         if(left <= 1)
             return reverse(leftNode.current , rightNode.current.next) ;
         leftNode.previous.next = reverse(leftNode.current , rightNode.current.next) ;
@@ -25,7 +25,7 @@ class SOLVE92{
             return index ;
         return length(head.next , index+1) ;
     }
-    private pair<ListNode,ListNode> getElement(ListNode head , int position){
+    private pair<ListNode, ListNode> getElement(ListNode head , int position){
         if(position > length(head , 0))
             position = length(head,0) ;
         ListNode current = head ;

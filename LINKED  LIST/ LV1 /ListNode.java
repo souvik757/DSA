@@ -1,19 +1,19 @@
-public class ListNode{
-    int val ;
+public class ListNode {
+    int data;
     ListNode next ;
     public ListNode() {
     }
     public ListNode(int val) {
-        this.val = val;
+        this.data = val;
         this.next = null ;
     }
     public void show (ListNode Node){
         if(Node == null)
             return ;
-        System.out.print("->"+Node.val) ;
+        System.out.print("->"+Node.data) ;
         show(Node.next) ;
     }
-    public ListNode insert_head(ListNode head ,int value){
+    public ListNode insert_head(ListNode head , int value){
         ListNode temp = new ListNode(value) ;
         temp.next = head ;
         head = temp ;

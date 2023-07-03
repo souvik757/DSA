@@ -10,7 +10,6 @@ public class _502_IPO {
         System.out.println(object.findMaximizedCapital(3,0,new int[]{1,4,5,2},new int[]{0,1,1,2})); // 10
     }
 }
-
 class SOLVE_502 {
     public int findMaximizedCapital(int k, int w, int[] profits, int[] capital) {
         // PriorityQueue<int[]{profit,capital}>

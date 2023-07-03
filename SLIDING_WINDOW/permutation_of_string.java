@@ -25,7 +25,8 @@ class _46_String{
             answer.add(new ArrayList<>(output)) ;
         else {
             for (String val : str) {
-                if (output.contains(val)) continue ;
+                if (output.contains(val))
+                    continue ;
                 output.add(val);
                 solve(answer,output,str);
                 output.remove(output.size()-1);

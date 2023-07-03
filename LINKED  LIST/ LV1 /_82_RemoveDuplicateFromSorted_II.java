@@ -39,7 +39,7 @@ class SOLVE82{ // naive approach using HashMap<>() :::
     private void UpdateMap(ListNode head){
         ListNode current = head ;
         while (current != null){
-            frequency.put(current.val , frequency.getOrDefault(current.val , 0)+1) ;
+            frequency.put(current.data, frequency.getOrDefault(current.data, 0)+1) ;
             current = current.next ;
         }
 //        System.out.println(frequency);
@@ -48,13 +48,13 @@ class SOLVE82{ // naive approach using HashMap<>() :::
         ListNode current = head ;
         if(head == null)
             return null;
-        while (current != null && current.val == val){
+        while (current != null && current.data == val){
             current = current.next;
             head = current ;
         }
         ListNode prev = new ListNode(-1) ; // following node after current :::
         while (current != null){
-            if(current.val == val)
+            if(current.data == val)
                 prev.next = current.next ;
             else
                 prev = current ;
@@ -71,9 +71,9 @@ class SOLVE82Constant{ // only 'll work on sorted list :::
         ListNode current = prev ;
         current.next = head ;
         while (current.next != null && current.next.next != null){
-            if(current.next.val == current.next.next.val){ // head != null && head.next != null
-                int duplicate = current.next.val ; // store the duplicate value to traverse until found unique :::
-                while (current.next != null && current.next.val == duplicate){ // keep skipping duplicate :::
+            if(current.next.data == current.next.next.data){ // head != null && head.next != null
+                int duplicate = current.next.data; // store the duplicate value to traverse until found unique :::
+                while (current.next != null && current.next.data == duplicate){ // keep skipping duplicate :::
                     current.next = current.next.next ;
                 }
             }

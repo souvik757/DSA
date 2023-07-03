@@ -63,8 +63,10 @@ public class Palindrome_OR_not {
             slow = slow.next ;
             fast = fast.next ;
         }
+        // 6 . revert changes made at step 3.
         temp = GET_MID(HEAD).next ;
         GET_MID(HEAD).next = reversed(temp) ;
+
         return true ;
     }
 
@@ -89,8 +91,8 @@ public class Palindrome_OR_not {
 
         while (HARE != null && HARE.next != null)
         {
-            HARE = HARE.next.next ;
             TORTOISE = TORTOISE.next ;
+            HARE = HARE.next.next ;
         }
 
         return TORTOISE ; // TORTOISE IS IMPORTANT :

@@ -1,8 +1,11 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Diamond {
         public static void main(String[] args) {
             int n = new Scanner(System.in).nextInt();
+
             for (int i = 1; i <= n; i++) {
                 for (int j = 1; j <= n - i; j++) {
                     System.out.print(" ");

@@ -42,13 +42,11 @@ public class _25_Reverse_in_k_groups {
             c++ ;
         }
         if(forward != null) {
-//            if(size(forward) < k) // In case of strict restriction of K :::
-//                HEAD.next = forward ;
-            HEAD.next = kReverse(forward, k);
+//            HEAD.next = forward ;
+            HEAD.next = kReverse(forward , k) ;
         }
         return prev ;
     }
-
 
     //------------------------------------------------------------------------------------------------------------------
     //LENGTH :

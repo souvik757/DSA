@@ -24,7 +24,7 @@ class Solution {
         ListNode temp1 = reverse(mid.next) ;
         mid.next = null ;
         while (temp0 != null){
-            MaxSum = Math.max(MaxSum , temp0.val+temp1.val) ;
+            MaxSum = Math.max(MaxSum , temp0.data +temp1.data) ;
             temp0 = temp0.next ;
             temp1 = temp1.next ;
         }

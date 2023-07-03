@@ -1,8 +1,13 @@
 public class CountIslands {
     public static void main(String[] args){
         solution012 object = new solution012() ;
-        int[][] grid = new int[][]{{1,1,1,0,0} , {0,1,1,1,1} , {0,0,0,0,0} , {1,0,0,0,0} ,
-                {1,1,0,1,1}} ;
+        int[][] grid = new int[][]{
+                {1,1,1,0,0} ,
+                {0,1,1,1,1} ,
+                {0,0,0,0,0} ,
+                {1,0,0,0,0} ,
+                {1,1,0,1,1}
+        } ;
         System.out.println(object.numIslands(grid)) ;
     }
 }
@@ -10,7 +15,8 @@ class solution012 {
     public int numIslands(int[][] grid) {
         int count = 0 ;
         int n = grid.length ;
-        if(n == 0) return 0 ;
+        if(n == 0)
+            return 0 ;
         int m = grid[0].length ;
         for(int i = 0; i < n; i++){
             for(int j = 0 ; j < m ; j++){

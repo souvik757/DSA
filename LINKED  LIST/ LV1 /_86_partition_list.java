@@ -21,12 +21,12 @@ class SOLVE86{
         ListNode temp1 = head1 ;
         ListNode temp2 = head2 ;
         while (current != null){
-            if(current.val < x) {
-                temp1.next = new ListNode(current.val) ;
+            if(current.data < x) {
+                temp1.next = new ListNode(current.data) ;
                 temp1 = temp1.next ;
             }
             else{
-                temp2.next = new ListNode(current.val) ;
+                temp2.next = new ListNode(current.data) ;
                 temp2 = temp2.next ;
             }
             current = current.next ;

@@ -1,18 +1,18 @@
 public class sort_list_0_1 {
     public static void main(String[] args) {
         SOLVE_01LIST object = new SOLVE_01LIST() ;
-        object.main() ;
+        object._FUNCTION_() ;
     }
 }
 class SOLVE_01LIST{
-    public void main() {
-        node head = new node(1) ;
-        node n1 = new node(0) ;
-        node n2 = new node(1) ;
-        node n3 = new node(2) ;
-        node n4 = new node(0) ;
-        node n5 = new node(1) ;
-        node tail = new node(2) ;
+    public void _FUNCTION_() {
+        ListNode head = new ListNode(1) ;
+        ListNode n1 = new ListNode(0) ;
+        ListNode n2 = new ListNode(1) ;
+        ListNode n3 = new ListNode(2) ;
+        ListNode n4 = new ListNode(0) ;
+        ListNode n5 = new ListNode(1) ;
+        ListNode tail = new ListNode(2) ;
         head.next = n1 ;
         n1.next = n2 ;
         n2.next = n3 ;
@@ -24,14 +24,14 @@ class SOLVE_01LIST{
         show_list(sort(head));
         show_list(sort_1(head));
     }
-    private node sort(node head) // T.C : O(n) S.C : O(1)
+    private ListNode sort(ListNode head) // T.C : O(n) S.C : O(1)
     {
         if(head == null)
             return null;
         int ZeroCount = 0 ;
         int OneCount  = 0 ;
         int TwoCount  = 0 ;
-        node current = head ;
+        ListNode current = head ;
         while (current != null)
         {
             if(current.data == 0)
@@ -62,17 +62,17 @@ class SOLVE_01LIST{
         System.out.println("SORTED");
         return head ;
     }
-    private node sort_1(node head) // T.C : O(n) S.C : O(1)
+    private ListNode sort_1(ListNode head) // T.C : O(n) S.C : O(1)
     {
         if(head == null)
             return null ;
-        node ZeroHead = new node(-1) ;
-        node ZeroTail = ZeroHead ;
-        node OneHead = new node(-1) ;
-        node OneTail = OneHead ;
-        node TwoHead = new node(-1) ;
-        node TwoTail = TwoHead ;
-        node current = head ;
+        ListNode ZeroHead = new ListNode(-1) ;
+        ListNode ZeroTail = ZeroHead ;
+        ListNode OneHead = new ListNode(-1) ;
+        ListNode OneTail = OneHead ;
+        ListNode TwoHead = new ListNode(-1) ;
+        ListNode TwoTail = TwoHead ;
+        ListNode current = head ;
         while( current != null)
         {
             int val = current.data ;
@@ -99,11 +99,11 @@ class SOLVE_01LIST{
         return head ;
     }
 
-    private void show_list(node head)
+    private void show_list(ListNode head)
     {
         if(head == null)
             return ;
-        node current = head ;
+        ListNode current = head ;
         while (current != null)
         {
             System.out.print(current.data+"->");
@@ -115,6 +115,6 @@ class SOLVE_01LIST{
 class node
 {
     int data ;
-    node next ;
+    ListNode next ;
     node(int data){ this.data = data ; next = null ; }
 }

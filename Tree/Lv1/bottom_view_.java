@@ -1,7 +1,5 @@
 package Lv1;
 
-import Lv0.TreeFormation;
-
 import java.util.*;
 
 public class bottom_view_ {
@@ -9,13 +7,13 @@ public class bottom_view_ {
         _BOTTOM_ bottom_ = new _BOTTOM_() ;
         TreeNode root = new TreeNode() ;
         root = root.FormTreeByLevel(root) ;
-        bottom_._top_view_traverse_(root);
+        bottom_._bottom_view_traverse_(root);
     }
 }
 class _BOTTOM_{
-    public void _top_view_traverse_(TreeNode root) {
+    public void _bottom_view_traverse_(TreeNode root) {
         TreeMap<Integer, TreeNode> map = new TreeMap<>();
-        Queue<QueueObj> queue = new LinkedList<QueueObj>();
+        Queue<QueueObj> queue = new LinkedList<>();
         if (root == null)
             return;
         else

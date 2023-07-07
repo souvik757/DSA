@@ -1,6 +1,7 @@
 # DSA
 ## Language - Java
 ## Overview
+
 ## Table Of Contents
 - [Linked List](#linked-list)
 - [Recursion and Binary Search](#recursion-and-binary-search)
@@ -9,6 +10,7 @@
 - [Tree](#tree)
 - [Heap](#heap)
 - [Graph](#graph)
+
 
 ## Linked List
 
@@ -23,13 +25,10 @@
 - [Level 2 - hard](https://github.com/souvik757/DSA/tree/master/RECURSION%20AND%20BIN-SEARCH/%7F%7F%7F%7F%7F%20LV2%20%7F%7F%7F%7F%7F%7F%7F)
 
 ## Sliding Window
-
-### Various string manipulations
-* String permutation
-* Max sub array
-* Longest palindrome
-*  ........
-- [go to page](https://github.com/souvik757/DSA/tree/master/SLIDING_WINDOW)
+````
+string + string dymamic + backtracking
+````
+- [here](https://github.com/souvik757/DSA/tree/master/SLIDING_WINDOW)
 
 ## Stack
 

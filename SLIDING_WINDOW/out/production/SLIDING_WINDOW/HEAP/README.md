@@ -23,14 +23,6 @@
               / \   \
              4   5   6 
 ````
-## Built in Heap in java
-```
-In java collection interface 
-, by default PriorityQueue provides features of a minheap . 
-- Queue<T> minheap = new PriorityQueue<>() ; 
-To use maxheap as a PriorityQueue 
-- Queue<T> maxheap = new PriorityQueue<>(Comparator.reverseOrder()) ; 
-```
 # Contents
 
 - ### [MaxHeap](https://github.com/souvik757/DSA/blob/master/SLIDING_WINDOW/HEAP/MaxHeap.java)

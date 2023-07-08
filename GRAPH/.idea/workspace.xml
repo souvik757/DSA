@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15fa0d67-e93f-46f3-a1aa-61f95c6a2511" name="Changes" comment="&lt;-- [ Disjoint Set ] U [ Union Find ]✔ --&gt;">
-      <change afterPath="$PROJECT_DIR$/../.idea/DSA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DisjointSets/OverView_Of_DisjointSets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DisjointSets/UnionFind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lv0/Lv0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lv0/_909_SnakeAndLadders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/.idea/Interview_75.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___10___/.idea/___DAY___10___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___11___/.idea/___DAY___11___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___11___/out/production/___DAY___11___/.idea/___DAY___11___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___12___/.idea/___DAY___12___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___12___/out/production/___DAY___12___/.idea/___DAY___12___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___13___/.idea/___DAY___13___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___13___/out/production/___DAY___13___/.idea/___DAY___13___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___14___/.idea/___DAY___14___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___14___/out/production/___DAY___14___/.idea/___DAY___14___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___15___/.idea/___DAY___15___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___15___/out/production/___DAY___15___/.idea/___DAY___15___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___1___/.idea/___DAY___1___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___1___/out/production/___DAY___1___/.idea/___DAY___1___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___2___/.idea/___DAY___2___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___3___/.idea/___DAY___3___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___3___/out/production/___DAY___3___/.idea/___DAY___3___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___4___/.idea/___DAY___4___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___4___/out/production/___DAY___4___/.idea/___DAY___4___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___5___/.idea/___DAY___5___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___5___/out/production/___DAY___5___/.idea/___DAY___5___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___6___/.idea/___DAY___6___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___6___/out/production/___DAY___6___/.idea/___DAY___6___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___7___/.idea/___DAY___7___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___7___/out/production/___DAY___7___/.idea/___DAY___7___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___8___/.idea/___DAY___8___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___8___/out/production/___DAY___8___/.idea/___DAY___8___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___9___/.idea/___DAY___9___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Interview_75/___DAY___9___/out/production/___DAY___9___/.idea/___DAY___9___.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/RECURSION AND BIN-SEARCH.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/.idea/ LV1 .iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/.idea/ LV2 .iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/.idea/ LVO .iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/out/production/ LV0 /.idea/ LV0 .iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/out/production/ LV1 /.idea/ LV1 .iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/out/production/ LV2 /.idea/ LV2 .iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/out/production/RECURSION AND BIN-SEARCH/out/production/ LVO /.idea/ LVO .iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/ LV2 /SubsetsOfStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/Lv1/Lv1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/NArrayTree/NArrayTree.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/out/production/Tree/Lv1/Lv1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/out/production/Tree/production/Lv0/Lv0.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tree/production/Lv0/Lv0.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lv0/longest_cycle_directed.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lv0/solve_886.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /Reverse_in_k_groups$NODE.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /Reverse_in_k_groups.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /out/production/ LV1 /sort_list_0_1$node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../RECURSION AND BIN-SEARCH/ LV2 /out/production/ LV2 /result.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lv0/_909_SnakeAndLadders.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,8 +39,9 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "E:/DSA/GRAPH",
+    "last_opened_file_path": "E:/DSA/Revision",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",

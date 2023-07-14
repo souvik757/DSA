@@ -47,6 +47,33 @@ public class _25_Reverse_in_k_groups {
         }
         return prev ;
     }
+    private static NODE RevK(NODE head, int[] b, int index) {
+        if (head == null || index >= b.length)
+            return head;
+        if (b[index] == 0)
+            return RevK(head , b , index+1) ;
+
+        NODE prev = null;
+        NODE forw = null;
+        NODE curr = head;
+        int c = 0;
+
+        // Reverse 'b[index]' nodes
+        while (curr != null && c < b[index]) {
+            forw = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = forw;
+            c++;
+        }
+
+        // Connect the reversed segment with the next segment
+        if (forw != null) {
+            head.next = RevK(forw, b, index + 1);
+        }
+
+        return prev;
+    }
 
     //------------------------------------------------------------------------------------------------------------------
     //LENGTH :
@@ -107,7 +134,8 @@ public class _25_Reverse_in_k_groups {
                 insert_at_head(value);
                 show_list(HEAD);
             }
-            HEAD = kReverse(HEAD , k) ;
+//            HEAD = kReverse(HEAD , k) ;
+            HEAD = RevK(HEAD , new int[]{1,0,3} , 0) ;
             System.out.println("AFTER "+k+" REVERSAL OPERATION :") ;
             show_list(HEAD) ;
         }

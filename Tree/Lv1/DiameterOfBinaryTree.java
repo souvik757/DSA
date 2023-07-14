@@ -19,6 +19,6 @@ public class DiameterOfBinaryTree {
         int diameter = Math.max(left_diameter ,
                 Math.max(right_diameter , self_diameter)) ;
 
-        return diameter ;
+        return diameter + 1 ;
     }
 }

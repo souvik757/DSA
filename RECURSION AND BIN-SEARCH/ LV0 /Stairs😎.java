@@ -9,6 +9,16 @@ import java.util.Scanner;
 */
 class Stairs
 {
+    static int solve(int N){
+        int[] dp = new int[N+1] ;
+        dp[0] = 1 ;
+        dp[1] = 1 ;
+        for (int i = 2 ; i <= N ; i ++)
+            dp[i] = dp[i-1] + dp[i-2] ;
+
+
+        return dp[N] ;
+    }
     static int helper(int N)
     {
         //bounding case:
@@ -24,7 +34,7 @@ class Stairs
     {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        int res = helper(N);
+        int res = solve(N);
         System.out.println("In "+res+" steps .");
         sc.close();
     }

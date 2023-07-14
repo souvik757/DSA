@@ -155,9 +155,8 @@ class solutionBRUTEFORCE{
 		System.out.println(answer);
 		List<Integer> list = new ArrayList<>(answer.get(0)) ;
 		list.remove(list.size()-1) ;
-		int i = 0 ;
-		while (i < list.size()-K)
-			i++ ;
+		int n = list.size()-1 ;
+		int i = n - K ;
 
 
 		return list.get(i);
@@ -169,6 +168,7 @@ class solutionBRUTEFORCE{
 		if(root.data == NODE) {
 			_list_.add(root.data) ;
 			answer.add(new ArrayList<>(_list_));
+			return ;
 		}
 		_list_.add(root.data) ;
 		_make_path_(root.left , NODE) ;

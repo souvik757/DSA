@@ -66,7 +66,7 @@ class helper{
         }
         while (!stack2.isEmpty()){
             int val = stack2.pop().data ;
-            System.out.print("->"+val) ;
+            System.out.print("->"+val) ;     // visit root
         }
     }
 }

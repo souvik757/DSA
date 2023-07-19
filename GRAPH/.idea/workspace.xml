@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="15fa0d67-e93f-46f3-a1aa-61f95c6a2511" name="Changes" comment="&lt;-- [ Disjoint Set ] U [ Union Find ]✔ --&gt;">
-      <change beforePath="$PROJECT_DIR$/Lv0/_909_SnakeAndLadders.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lv0/_289_GameOfLife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +47,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "E:/DSA/Revision",
+    "last_opened_file_path": "E:/DSA/SLIDING_WINDOW",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
-  <component name="RunManager" selected="Application._909_SnakeAndLadders">
+  <component name="RunManager" selected="Application._289_GameOfLife">
     <configuration name="DisjointSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DisjointSets" />
       <module name="Lv0" />
@@ -56,15 +62,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestDistDAG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShortestDistDAG" />
+    <configuration name="ShortestPathInDirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShortestPathInDirectedGraph" />
       <module name="Lv0" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestPathInDirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShortestPathInDirectedGraph" />
+    <configuration name="_289_GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_289_GameOfLife" />
       <module name="Lv0" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,11 +92,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._289_GameOfLife" />
         <item itemvalue="Application._909_SnakeAndLadders" />
         <item itemvalue="Application._721_Accounts_Merge" />
         <item itemvalue="Application.DisjointSets" />
         <item itemvalue="Application.ShortestPathInDirectedGraph" />
-        <item itemvalue="Application.ShortestDistDAG" />
       </list>
     </recent_temporary>
   </component>

@@ -26,7 +26,7 @@
 
 ## Sliding Window
 ````
-string + string dymamic + backtracking
+string + dymamic + backtracking
 ````
 - [here](https://github.com/souvik757/DSA/tree/master/SLIDING_WINDOW)
 

@@ -1,4 +1,4 @@
-package BuyAndSellStock;
+package DP.BuyAndSellStock;
 
 import java.util.Arrays;
 

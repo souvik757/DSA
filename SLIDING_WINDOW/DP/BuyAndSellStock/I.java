@@ -1,4 +1,4 @@
-package BuyAndSellStock;
+package DP.BuyAndSellStock;
 
 public class I {
     public static void main(String[] args) {

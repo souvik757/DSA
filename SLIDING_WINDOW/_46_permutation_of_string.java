@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class permutation_of_string
+public class _46_permutation_of_string
 {
     public static void main(String[] args)
     {

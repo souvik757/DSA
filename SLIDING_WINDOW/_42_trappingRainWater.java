@@ -7,6 +7,8 @@ public class _42_trappingRainWater {
         System.out.println(objectOpt.trap(heights));
     }
 }
+// formula : maximum rain a cell can hold can be calculated as
+//         : f(w) = min(leftHeight,rightHeight) - height of current cell
 class solve_42 {
     public int trap(int[] height) {
         int maxTrappedWater = 0 ;

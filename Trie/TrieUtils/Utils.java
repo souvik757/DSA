@@ -6,7 +6,6 @@ public class Utils {
 
         trie.Add("CAR");
         trie.Add("RACE");
-        trie.Add("GUN");
         trie.Add("SHOTGUN");
 
         trie.Search("GUN") ;

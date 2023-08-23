@@ -7,6 +7,8 @@ public class DecimalToBinary {
      * @return binary representation
      */
     public String toBinary(int decimal){
+        if(decimal == 0)
+            return "0" ;
         StringBuilder answer = new StringBuilder() ;
         while (decimal > 0){
             answer.append(decimal%2) ;

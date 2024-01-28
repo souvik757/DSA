@@ -4,11 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15fa0d67-e93f-46f3-a1aa-61f95c6a2511" name="Changes" comment="&lt;-- [ Disjoint Set ] U [ Union Find ]✔ --&gt;">
-      <change afterPath="$PROJECT_DIR$/Lv0/_289_GameOfLife.java" afterDir="false" />
+    <list default="true" id="15fa0d67-e93f-46f3-a1aa-61f95c6a2511" name="Changes" comment="&lt;-- {}[] --&gt;">
+      <change afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/_229_MajorityElement_II.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SLIDING_WINDOW/out/production/SLIDING_WINDOW/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lv0/ShortestPathInDirectedGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lv0/ShortestPathInDirectedGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_25_Reverse_in_k_groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/../LINKED  LIST/ LV1 /_25_Reverse_in_k_groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/SOLVE909.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/ShortestDirected.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/ShortestDirected.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/ShortestPathInDirectedGraph.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/ShortestPathInDirectedGraph.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/Toposort.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/Toposort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/ToposortKahns.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/ToposortKahns.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/_909_SnakeAndLadders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/solve_289.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/solve_289.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +43,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2GUfdz0XBE3Q9ZrJUgTY265MU7T" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -40,28 +57,23 @@
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "E:/DSA/SLIDING_WINDOW",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.completion"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application._79_WordSearch.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DSA/GRAPH&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application._289_GameOfLife">
-    <configuration name="DisjointSets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DisjointSets" />
-      <module name="Lv0" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application._79_WordSearch">
     <configuration name="ShortestPathInDirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ShortestPathInDirectedGraph" />
       <module name="Lv0" />
@@ -83,6 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_79_WordSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_79_WordSearch" />
+      <module name="Lv0" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="_909_SnakeAndLadders" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_909_SnakeAndLadders" />
       <module name="Lv0" />
@@ -92,13 +111,20 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._79_WordSearch" />
+        <item itemvalue="Application.ShortestPathInDirectedGraph" />
         <item itemvalue="Application._289_GameOfLife" />
         <item itemvalue="Application._909_SnakeAndLadders" />
         <item itemvalue="Application._721_Accounts_Merge" />
-        <item itemvalue="Application.DisjointSets" />
-        <item itemvalue="Application.ShortestPathInDirectedGraph" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -441,21 +467,7 @@
     <MESSAGE value="&lt;-- Shortest Distance in Directed &amp; UnDirected Graphs✔ --&gt;" />
     <MESSAGE value="&lt;-- Disjoint Sets✔ --&gt;" />
     <MESSAGE value="&lt;-- [ Disjoint Set ] U [ Union Find ]✔ --&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;-- [ Disjoint Set ] U [ Union Find ]✔ --&gt;" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Lv0/Number_of_Provinces.java</url>
-          <line>30</line>
-          <properties class="solutionG15" method="findCircleNum">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="&lt;-- {}[] --&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;-- {}[] --&gt;" />
   </component>
 </project>

@@ -29,10 +29,12 @@ public class _25_Reverse_in_k_groups {
     {
         if(HEAD == null)
             return null ;
+
         NODE current = HEAD ;
         NODE prev = null ;
         NODE forward = null ;
         int c = 0 ;
+
         while ( current != null && c<k )
         {
             forward = current.next ;
@@ -41,10 +43,9 @@ public class _25_Reverse_in_k_groups {
             current = forward ;
             c++ ;
         }
-        if(forward != null) {
-//            HEAD.next = forward ;
+        if(forward != null)
             HEAD.next = kReverse(forward , k) ;
-        }
+
         return prev ;
     }
     private static NODE RevK(NODE head, int[] b, int index) {

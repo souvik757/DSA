@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15fa0d67-e93f-46f3-a1aa-61f95c6a2511" name="Changes" comment="&lt;-- {}[] --&gt;">
-      <change beforePath="$PROJECT_DIR$/Lv0/_79_WordSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lv0/_79_WordSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lv0/_212_Word_Search_II.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tree/production/Lv0/_79_WordSearch.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tree/production/Lv0/_79_WordSearch.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +49,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application._212_Word_Search_II.executor": "Run",
     "Application._79_WordSearch.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -57,10 +60,10 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Application._79_WordSearch">
+  <component name="RunManager" selected="Application._212_Word_Search_II">
     <configuration name="ShortestPathInDirectedGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ShortestPathInDirectedGraph" />
       <module name="Lv0" />
@@ -68,15 +71,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_289_GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_289_GameOfLife" />
+    <configuration name="_212_Word_Search_II" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_212_Word_Search_II" />
       <module name="Lv0" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_721_Accounts_Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_721_Accounts_Merge" />
+    <configuration name="_289_GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_289_GameOfLife" />
       <module name="Lv0" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._212_Word_Search_II" />
         <item itemvalue="Application._79_WordSearch" />
         <item itemvalue="Application.ShortestPathInDirectedGraph" />
         <item itemvalue="Application._289_GameOfLife" />
         <item itemvalue="Application._909_SnakeAndLadders" />
-        <item itemvalue="Application._721_Accounts_Merge" />
       </list>
     </recent_temporary>
   </component>
@@ -447,7 +450,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706501077116</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="&lt;-- {}[] --&gt;">
+      <option name="closed" value="true" />
+      <created>1706501490667</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1706501490667</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class _79_WordSearch {

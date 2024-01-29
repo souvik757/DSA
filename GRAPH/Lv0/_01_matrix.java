@@ -56,9 +56,6 @@ class pairs<K,V,D>{
     V column ;
     D distance ;
 
-    public pairs() {
-    }
-
     public pairs(K row, V column, D distance) {
         this.row = row;
         this.column = column;
